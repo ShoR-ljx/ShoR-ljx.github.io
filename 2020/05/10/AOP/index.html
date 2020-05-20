@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      Hello World | ShoR&#39;s note
+      AOP | ShoR&#39;s note
     
   </title>
   <meta name="author" content="ShoR">
@@ -101,7 +101,7 @@
 	<!-- Page title -->
 	<p>
 		
-			「Hello World」
+			「AOP」
 		
 	</p>
 
@@ -224,27 +224,14 @@
 		插件作者：KELEN
 		插件来源: https://github.com/KELEN/katelog
 -->
-
-	
-		<div class="layout-toc">
-			<div id="layout-toc">
-				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
-			</div>
-		</div>
-
-		
-<script src="/plugin/toc/katelog.min.js"></script>
-
-
-		
 	 
 
 <div class="layout-post">
 	<div id="layout-post">
 		<div class="article-title">
 			
-	<a href="/2020/05/08/hello-world/" itemprop="url">
-		Hello World
+	<a href="/2020/05/10/AOP/" itemprop="url">
+		AOP
 	</a>
 
 		</div>
@@ -260,9 +247,9 @@
 
 	更新于
 
-	<a href="/2020/05/08/hello-world/" itemprop="url">
-		<time datetime="2020-05-08T06:20:51.812Z" itemprop="dateUpdated">
-	  		2020-05-08
+	<a href="/2020/05/10/AOP/" itemprop="url">
+		<time datetime="2020-05-10T14:17:04.783Z" itemprop="dateUpdated">
+	  		2020-05-10
 	  </time>
 	</a> 
 
@@ -280,19 +267,13 @@
 		</div>
 
 		<div class="article-content" id="article-content">
-			<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+			<p>环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning</p>
+<p>异常结束：</p>
+<p>​    环绕前置通知  - @Before -  环绕异常通知  -  环绕返回通知 -  @After  -  @AfterReturning</p>
+<p>如果异常在环绕通知中解决了，那么普通通知是捕获不到的，如果想要普通通知接收到需要的异常信息，可将顺序改为：</p>
+<p>环绕前置通知 -   @Before  -  环绕异常通知  -   环绕返回通知  -   @After   -   @AfterThrowing</p>
+<p> try  catch  异常就捕获到了异常 ，代码可以继续向下执行</p>
+<p>事务不会处理</p>
 	
 		</div>
 		
@@ -311,10 +292,14 @@
 	<span>
 		<a id="totop-post-page">返回顶部</a>
 		
-			<a href="/2020/05/08/First-Try/" title="First Try" rel="prev">
+			<a href="/2020/05/11/JDBC/" title="JDBC" rel="prev">
 				&laquo;上一篇
 			</a>
 		
+		
+			<a href="/2020/05/09/base/" title="base" rel="next">
+				下一篇&raquo;
+			</a>
 			
 	</span>
 
@@ -429,30 +414,6 @@
 			
 					<li>
 						<div class="relate-post-text">
-							<a class="relate-post-title" href="/2020/05/10/AOP/" title="AOP">
-								AOP			
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								五月 10日, 2020				
-							</p>
-							<p class="relate-post-content">
-								环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning
-异常结束：
-​    环绕前置通知  - @Before -  环绕异常通知  -  环绕返回通...
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/2020/05/10/AOP/" title="AOP">				
-								
-								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.jpg" alt="AOP"/>
-							</a>
-						</div>
-					</li>												
-			
-					<li>
-						<div class="relate-post-text">
 							<a class="relate-post-title" href="/2020/05/09/base/" title="base">
 								base			
 							</a>
@@ -493,6 +454,28 @@
 							<a href="/2020/05/08/First-Try/" title="First Try">				
 								
 								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.jpg" alt="First Try"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2020/05/08/hello-world/" title="Hello World">
+								Hello World			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								五月 8日, 2020				
+							</p>
+							<p class="relate-post-content">
+								Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using ...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2020/05/08/hello-world/" title="Hello World">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.jpg" alt="Hello World"/>
 							</a>
 						</div>
 					</li>												
