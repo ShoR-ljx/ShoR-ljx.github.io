@@ -42,6 +42,17 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>system</title>
+    <url>/2020/05/16/system/</url>
+    <content><![CDATA[<p><img src="/.io//C:%5CUsers%5C%E5%88%98%E5%89%91%E7%BF%94%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200516125845997.png" alt="image-20200516125845997"></p>
+<p><img src="/.io//C:%5CUsers%5C%E5%88%98%E5%89%91%E7%BF%94%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200516130128400.png" alt="image-20200516130128400"></p>
+<p>随机访问存储器（Random-Access Memory, RAM)分为两类：静态的和动态的。静态<br>RAM(SRAM)比动态RAM(DRAM)更快，但也贵得多。SRAM 用来作为高速缓存存储<br>器，既可以在CPU 芯片上，也可以在片下。DRAM 用来作为主存以及图形系统的帧缓冲<br>区。典型地，一个桌面系统的SRAM 不会超过几兆字节，但是DRAM 却有几百或几千兆<br>字节。</p>
+]]></content>
+      <tags>
+        <tag>computer system</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>base</title>
     <url>/2020/05/09/base/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h3><h3 id="方法重载和方法重写"><a href="#方法重载和方法重写" class="headerlink" title="方法重载和方法重写"></a>方法重载和方法重写</h3><h2 id="零碎细节"><a href="#零碎细节" class="headerlink" title="零碎细节"></a>零碎细节</h2><p>continue  用在循环语句中，用于跳出某一次的循环，回到循环条件判断处</p>
@@ -115,17 +126,6 @@
 ]]></content>
       <tags>
         <tag>base</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>system</title>
-    <url>/2020/05/16/system/</url>
-    <content><![CDATA[<p><img src="/.io//C:%5CUsers%5C%E5%88%98%E5%89%91%E7%BF%94%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200516125845997.png" alt="image-20200516125845997"></p>
-<p><img src="/.io//C:%5CUsers%5C%E5%88%98%E5%89%91%E7%BF%94%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200516130128400.png" alt="image-20200516130128400"></p>
-<p>随机访问存储器（Random-Access Memory, RAM)分为两类：静态的和动态的。静态<br>RAM(SRAM)比动态RAM(DRAM)更快，但也贵得多。SRAM 用来作为高速缓存存储<br>器，既可以在CPU 芯片上，也可以在片下。DRAM 用来作为主存以及图形系统的帧缓冲<br>区。典型地，一个桌面系统的SRAM 不会超过几兆字节，但是DRAM 却有几百或几千兆<br>字节。</p>
-]]></content>
-      <tags>
-        <tag>computer system</tag>
       </tags>
   </entry>
   <entry>
