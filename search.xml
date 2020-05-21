@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First Try</title>
-    <url>/2020/05/08/First-Try/</url>
-    <content><![CDATA[<h6 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h6>]]></content>
-      <tags>
-        <tag>First Try of Blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AOP</title>
     <url>/2020/05/10/AOP/</url>
     <content><![CDATA[<p>环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning</p>
@@ -18,6 +10,53 @@
 <p>环绕前置通知 -   @Before  -  环绕异常通知  -   环绕返回通知  -   @After   -   @AfterThrowing</p>
 <p> try  catch  异常就捕获到了异常 ，代码可以继续向下执行</p>
 <p>事务不会处理</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>JDBC</title>
+    <url>/2020/05/11/JDBC/</url>
+    <content><![CDATA[<h2 id="MySql基本语句"><a href="#MySql基本语句" class="headerlink" title="MySql基本语句"></a>MySql基本语句</h2><p>ORM(Object relational mapping)对象关系映射编程思想</p>
+<ul>
+<li>​    一个数据表对映一个Java类</li>
+<li>​    一条记录对映一个对象</li>
+<li>​    一个字段对映一个属性</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table &#96;orders&#96;(</span><br><span class="line">&#96;id&#96; varchar(100) not null primary key,</span><br><span class="line">&#96;order_time&#96; datetime not null,</span><br><span class="line">&#96;total_count&#96; int(11) not null,</span><br><span class="line">&#96;total_amount&#96; double(11,2) not null,</span><br><span class="line">&#96;state&#96; int(11) not null,</span><br><span class="line">&#96;user_id&#96; int(11) not null,</span><br><span class="line">constraint &#96;orders_users_id_fk&#96; foreign key</span><br><span class="line">(&#96;user_id&#96;) references &#96;users&#96;(&#96;id&#96;))</span><br><span class="line">engine&#x3D;InnoDB default charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table &#96;order_items&#96; (</span><br><span class="line">&#96;id&#96; int(11) not null primary key auto_increment,</span><br><span class="line">&#96;count&#96; int(11) not null,</span><br><span class="line">&#96;amount&#96; double(11,2) not null,</span><br><span class="line">&#96;title&#96; varchar(100) not null,</span><br><span class="line">&#96;author&#96; varchar(100) not null,</span><br><span class="line">&#96;price&#96; double(11,2) not null,</span><br><span class="line">&#96;img_path&#96; varchar(100) not null,</span><br><span class="line">&#96;order_id&#96; varchar(100) not null,</span><br><span class="line">constraint &#96;order_items_orders_id_fk&#96; foreign key</span><br><span class="line">(&#96;order_id&#96;) references &#96;orders&#96;(&#96;id&#96;) on delete cascade)</span><br><span class="line">engine&#x3D;InnoDB auto_increment&#x3D;7 default</span><br><span class="line">charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
+
+<p>插入数据</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>First Try</title>
+    <url>/2020/05/08/First-Try/</url>
+    <content><![CDATA[<h6 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h6>]]></content>
+      <tags>
+        <tag>First Try of Blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>algorithm03</title>
+    <url>/2020/05/20/algorithm03/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -92,6 +131,9 @@
 <li>删除的时候比较麻烦</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>SE</category>
+      </categories>
       <tags>
         <tag>base</tag>
       </tags>
@@ -106,44 +148,5 @@
       <tags>
         <tag>computer system</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/05/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>algorithm03</title>
-    <url>/2020/05/20/algorithm03/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>JDBC</title>
-    <url>/2020/05/11/JDBC/</url>
-    <content><![CDATA[<h2 id="MySql基本语句"><a href="#MySql基本语句" class="headerlink" title="MySql基本语句"></a>MySql基本语句</h2><p>ORM(Object relational mapping)对象关系映射编程思想</p>
-<ul>
-<li>​    一个数据表对映一个Java类</li>
-<li>​    一条记录对映一个对象</li>
-<li>​    一个字段对映一个属性</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table &#96;orders&#96;(</span><br><span class="line">&#96;id&#96; varchar(100) not null primary key,</span><br><span class="line">&#96;order_time&#96; datetime not null,</span><br><span class="line">&#96;total_count&#96; int(11) not null,</span><br><span class="line">&#96;total_amount&#96; double(11,2) not null,</span><br><span class="line">&#96;state&#96; int(11) not null,</span><br><span class="line">&#96;user_id&#96; int(11) not null,</span><br><span class="line">constraint &#96;orders_users_id_fk&#96; foreign key</span><br><span class="line">(&#96;user_id&#96;) references &#96;users&#96;(&#96;id&#96;))</span><br><span class="line">engine&#x3D;InnoDB default charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table &#96;order_items&#96; (</span><br><span class="line">&#96;id&#96; int(11) not null primary key auto_increment,</span><br><span class="line">&#96;count&#96; int(11) not null,</span><br><span class="line">&#96;amount&#96; double(11,2) not null,</span><br><span class="line">&#96;title&#96; varchar(100) not null,</span><br><span class="line">&#96;author&#96; varchar(100) not null,</span><br><span class="line">&#96;price&#96; double(11,2) not null,</span><br><span class="line">&#96;img_path&#96; varchar(100) not null,</span><br><span class="line">&#96;order_id&#96; varchar(100) not null,</span><br><span class="line">constraint &#96;order_items_orders_id_fk&#96; foreign key</span><br><span class="line">(&#96;order_id&#96;) references &#96;orders&#96;(&#96;id&#96;) on delete cascade)</span><br><span class="line">engine&#x3D;InnoDB auto_increment&#x3D;7 default</span><br><span class="line">charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
-
-<p>插入数据</p>
-]]></content>
   </entry>
 </search>
