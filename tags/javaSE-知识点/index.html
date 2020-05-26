@@ -79,14 +79,12 @@
 
 
 
-<meta name="description" content="环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning 异常结束： ​    环绕前置通知  - @Before -  环绕异常通知  -  环绕返回通知 -  @After  -  @AfterReturning 如果异常在环绕通知中解决了，那么普通通知是捕获不到的，如果想要普通通知接收到需要的异常信息，可将顺序改">
-<meta property="og:type" content="article">
-<meta property="og:title" content="AOP">
-<meta property="og:url" content="http://shor-ljx.github.io/2020/05/10/AOP/index.html">
+<meta name="description" content="盛年不重来 一日难再晨">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ShoR&#39;s note">
+<meta property="og:url" content="http://shor-ljx.github.io/tags/javaSE-%E7%9F%A5%E8%AF%86%E7%82%B9/index.html">
 <meta property="og:site_name" content="ShoR&#39;s note">
-<meta property="og:description" content="环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning 异常结束： ​    环绕前置通知  - @Before -  环绕异常通知  -  环绕返回通知 -  @After  -  @AfterReturning 如果异常在环绕通知中解决了，那么普通通知是捕获不到的，如果想要普通通知接收到需要的异常信息，可将顺序改">
-<meta property="article:published_time" content="2020-05-10T14:17:04.783Z">
-<meta property="article:modified_time" content="2020-05-10T14:17:04.783Z">
+<meta property="og:description" content="盛年不重来 一日难再晨">
 <meta property="article:author" content="刘剑翔">
 <meta name="twitter:card" content="summary">
 
@@ -118,13 +116,13 @@
 
 
 
-  <link rel="canonical" href="http://ShoR-ljx.github.io/2020/05/10/AOP/"/>
+  <link rel="canonical" href="http://ShoR-ljx.github.io/tags/javaSE-知识点/"/>
 
 
 
 
 
-  <title>AOP | ShoR's note</title>
+  <title>标签: javaSE 知识点 | ShoR's note</title>
   
 
 
@@ -143,7 +141,7 @@
     
   
 
-  <div class="container sidebar-position-right page-post-detail">
+  <div class="container sidebar-position-right ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -271,169 +269,54 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block tag">
 
-  
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>javaSE 知识点<small>标签</small>
+        </h1>
+      </div>
 
-  
-  
-  
+      
+        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://ShoR-ljx.github.io/2020/05/10/AOP/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="刘剑翔">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ShoR's note">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">AOP</h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
+            <a class="post-title-link" href="/2020/05/26/%E3%80%90javaSE%E3%80%91%E5%85%B3%E9%94%AE%E5%AD%97/" itemprop="url">
               
-                <span class="post-meta-item-text">发表于</span>
+                <span itemprop="name">【javaSE】关键字</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-05-10T22:17:04+08:00">
-                2020-05-10
-              </time>
-            
+            </a>
+        
+      </h2>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>环绕前置通知  - @Before -  环绕后置通知  -  环绕返回通知 -  @After  -  @AfterReturning</p>
-<p>异常结束：</p>
-<p>​    环绕前置通知  - @Before -  环绕异常通知  -  环绕返回通知 -  @After  -  @AfterReturning</p>
-<p>如果异常在环绕通知中解决了，那么普通通知是捕获不到的，如果想要普通通知接收到需要的异常信息，可将顺序改为：</p>
-<p>环绕前置通知 -   @Before  -  环绕异常通知  -   环绕返回通知  -   @After   -   @AfterThrowing</p>
-<p> try  catch  异常就捕获到了异常 ，代码可以继续向下执行</p>
-<p>事务不会处理</p>
-
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-      <div>
-        <ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者：</strong>
-    刘剑翔
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="http://shor-ljx.github.io/2020/05/10/AOP/" title="AOP">http://shor-ljx.github.io/2020/05/10/AOP/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-05-26T21:22:39+08:00"
+              content="2020-05-26" >
+          05-26
+        </time>
       </div>
-    
 
-    <footer class="post-footer">
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2020/05/08/First-Try/" rel="next" title="First Try">
-                <i class="fa fa-chevron-left"></i> First Try
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/05/11/JDBC/" rel="prev" title="JDBC">
-                JDBC <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
       
     </div>
+
   </div>
+  
+  
+  
+
+  
 
 
           </div>
@@ -441,10 +324,6 @@
 
 
           
-
-  
-
-
 
         </div>
         
@@ -483,12 +362,21 @@
 
              
                
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
             
 
             
@@ -496,7 +384,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -653,10 +541,6 @@
   
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
 
   
 
