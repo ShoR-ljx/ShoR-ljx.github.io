@@ -270,4 +270,22 @@
         <tag>知识点</tag>
       </tags>
   </entry>
+  <entry>
+    <title>【hexo】next导航栏404</title>
+    <url>/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
+    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
+<p><img src="/.io//F:%5Cblog%5Csource_posts%5C%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404%5Cpic1.jpg" alt></p>
+<p>然后重新生成静态文件并部署即可。</p>
+<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
+<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
