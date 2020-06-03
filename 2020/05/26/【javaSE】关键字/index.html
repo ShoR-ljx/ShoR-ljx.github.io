@@ -375,7 +375,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  2k words
+                  3.2k words
                 </span>
               
 
@@ -391,7 +391,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  7 min
+                  11 min
                 </span>
               
             </div>
@@ -640,7 +640,7 @@
 </li>
 <li><p><strong>静态代码块：</strong>静态代码块定义在类中的方法外，静态代码块在非静态代码块之前执行（静态代码块-&gt;非静态代码块-&gt;构造方法）。静态代码块只会执行一次，不论该类创造了多少对象。</p>
 </li>
-<li><p><strong>静态内部类（static可以修饰类，但是只能修饰内部类）：</strong>静态内部类与非静态内部类之间存在一个最大的区别是：非静态内部类在编译完成之后会隐式地保存着一个引用，该引用指向创建它的外部类，但是静态内部类是在外部类加载的时候也加载的，并没有这个隐含地引用。没有这个引用也就意味着：1.它的创建是不需要依赖外部类的创建。2.它不能使用外部类得到非static成员变量和成员方法。因为静态嘛，静态无法使用非静态的东西。</p>
+<li><p><strong>静态内部类（static可以修饰类，但是只能修饰内部类）：</strong>静态内部类与非静态内部类之间存在一个最大的区别是：非静态内部类在编译完成之后会隐式地保存着一个引用，<strong>该引用指向创建它的外部类</strong>，但是静态内部类是在外部类加载的时候也加载的，并没有这个隐含地引用。没有这个引用也就意味着：1.它的创建是不需要依赖外部类的创建。2.它不能使用外部类得到非static成员变量和成员方法。因为静态嘛，静态无法使用非静态的东西。</p>
 </li>
 <li><p><strong>静态导包（用来导入类中的静态资源，1.5之后的新特性）：</strong>格式为import static …</p>
 <p> 这两个关键字连用可以指定导入某个类中的指定静态资源，并且不需要使用类名调用类中的静态成员，可以直接使用类中的静态成员变量和成员方法。也就是说本来在该类中可以通过</p>
@@ -661,15 +661,22 @@
 <p>这段代码取消初始化操作之后就不会执行静态代码块，只是将类加载成字节码文件。</p>
 <p>其中new是强类型，相对高效，能调用任何public构造方法。newInstance是弱类型，相对低效，只能调用无参构造。</p>
 <h2 id="final"><a href="#final" class="headerlink" title="final"></a>final</h2><ol>
-<li><p><strong>final修饰变量，则等同于常量</strong></p>
+<li><p><strong>final修饰变量，则等同于常量</strong>.</p>
+<p>​        final修饰变量是使用最多的地方。如果是基本数据类型的变量，则其数值一旦在初始化之后便不能更改；如果是引用类型的变量，则在对其初始化之后便不能指向另一个对象。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FinalTest</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span>  <span class="keyword">final</span> Person person;</span><br><span class="line">    <span class="comment">//如果同时加了static 和 final 就必须立刻赋初始值，因为static在构造方法之前加载的</span></span><br><span class="line"><span class="comment">//只加其中一个修饰关键字是都可以在构造方法赋值的</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">FinalTest</span><span class="params">(Person person)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.person = person;</span><br><span class="line">        person.setAge(<span class="number">11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">        <span class="comment">//    public FinalTest01() &#123;</span></span><br><span class="line"><span class="comment">//        super();</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line">    <span class="comment">//这个时候会报错，也就是说所有的构造方法都必须对这个final成员变量赋值</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        FinalTest finalTest = <span class="keyword">new</span> FinalTest(<span class="keyword">new</span> Person());</span><br><span class="line">        System.out.println(finalTest.person.getAge());<span class="comment">//11</span></span><br><span class="line">        finalTest.person.setAge(<span class="number">13</span>);</span><br><span class="line">        System.out.println(finalTest.person.getAge());<span class="comment">//13</span></span><br><span class="line">        <span class="comment">//final成员变量必须让所有的构造方法赋初始值，且引用类型变量地址值不可变，变量的内部属性可以通过自己的方法来改变</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">--------------------------------------------------------------------------------------</span><br><span class="line">    在某偏博客还是帖子看到的例子：</span><br><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span>  </span>&#123;</span><br><span class="line">        String a = <span class="string">"hello2"</span>;</span><br><span class="line">        <span class="keyword">final</span> String b = <span class="string">"hello"</span>;</span><br><span class="line">        String d = <span class="string">"hello"</span>;</span><br><span class="line">        String c = b + <span class="number">2</span>;</span><br><span class="line">        String e = d + <span class="number">2</span>;</span><br><span class="line">        System.out.println((a == c));</span><br><span class="line">        System.out.println((a == e));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**输出结果：true、false</span></span><br><span class="line"><span class="comment">     大家可以先想一下这道题的输出结果。为什么第一个比较结果为true，而第二个比较结果为fasle。这里面就是final变量和普通变量的区别了，当final变量是基本数据类型以及String类型时，如果在编译期间能知道它的确切值，则编译器会把它当做编译期常量使用。也就是说在用到该final变量的地方，相当于直接访问的这个常量，不需要在运行时确定。这种和C语言中的宏替换有点像。因此在上面的一段代码中，由于变量b被final修饰，因此会被当做编译器常量，所以在使用到b的地方会直接将变量b 替换为它的值。而对于变量d的访问却需要在运行时通过链接来进行。想必其中的区别大家应该明白了，不过要注意，只有在编译期间能确切知道final变量值的情况下，编译器才会进行这样的优化，比如下面的这段代码就不会进行优化：    </span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span>  </span>&#123;</span><br><span class="line">        String a = <span class="string">"hello2"</span>;</span><br><span class="line">        <span class="keyword">final</span> String b = getHello();</span><br><span class="line">        String c = b + <span class="number">2</span>;</span><br><span class="line">        System.out.println((a == c));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getHello</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"hello"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//这段代码的输出结果为false。这里要注意一点就是：不要以为某些数据是final就可以在编译期知道其值，通过变量b我们就知道了，在这里是使用getHello()方法对其进行初始化，他要在运行期才能知道其值。</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p><strong>final修饰方法中的参数，称为最终参数。</strong></p>
+<li><p><strong>final修饰方法参数列表中的参数，称为最终参数。</strong></p>
 </li>
-<li><p><strong>final修饰类，则类不能被继承</strong></p>
+<li><p><strong>final修饰类，则类不能被继承</strong>。final类中的所有成员方法都会被隐式地指定为final方法。</p>
 </li>
 <li><p><strong>final修饰方法，则方法不能被重写。</strong></p>
-</li>
+<p>​        使用final修饰方法的原因有两个，1是将方法锁定，以防止任何继承类修改它的含义；2是因为效率，在早期的Java实现版本中，会将final方法转为内嵌调用。但是如果方法过于庞大，可能会看不到内嵌调用带来的性能提升。现在的版本已经不需要使用final来进行这样的优化了，类中所有的private方法都会隐式地指定为final。</p>
+<p>　    因此，如果只有在想明确禁止该方法在子类中被覆盖的情况下才将方法设置为final的。即<strong>父类的final方法是不能被子类所覆盖的</strong>，也就是说子类是不能够存在和父类一模一样的方法的。</p>
+<pre><code>final修饰的方法表示此方法已经是“**最后的、最终的**”含义，亦即**此方法不能被重写**（可以重载多个final修饰的方法）。此处需要注意的一点是：因为重写的前提是子类可以从父类中继承此方法，如果父类中final修饰的方法同时访问控制权限为private，将会导致子类中不能直接继承到此方法，因此，此时可以在子类中定义相同的方法名和参数，此时不再产生重写与final的矛盾，而是在子类中重新定义了新的方法。（注：类的private方法会隐式地被指定为final方法。）</code></pre></li>
 </ol>
+<h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><p>this关键字用于引用当前类的<strong>实例</strong>。</p>
+<p>所以要注意哪些地方才可以使用this关键字。</p>
+<h2 id="super"><a href="#super" class="headerlink" title="super"></a>super</h2><p>super关键字用于从子类访问父类的变量和方法</p>
 
       
     </div>
@@ -789,7 +796,7 @@
 
              
                
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -800,7 +807,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -811,7 +818,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -844,7 +851,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#static"><span class="nav-number">1.</span> <span class="nav-text">static</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#final"><span class="nav-number">2.</span> <span class="nav-text">final</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#static"><span class="nav-number">1.</span> <span class="nav-text">static</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#final"><span class="nav-number">2.</span> <span class="nav-text">final</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#this"><span class="nav-number">3.</span> <span class="nav-text">this</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#super"><span class="nav-number">4.</span> <span class="nav-text">super</span></a></li></ol></div>
             
 
           </div>
