@@ -15,80 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title>chrome插件</title>
-    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
-<li><p>去应用商店自行下载</p>
-</li>
-<li><p>离线安装</p>
-<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
-<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
-<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
-<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
-</li>
-</ol>
-<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
-<li><p><strong>Crx4Chrome</strong></p>
-<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
-<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>扩展迷</strong></p>
-<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
-<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>chrome插件网</strong></p>
-<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
-<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
-</li>
-</ul>
-<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
-<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
-<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
-<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
-<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
-<ul>
-<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
-</li>
-<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
-</li>
-<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
-<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
-]]></content>
-      <categories>
-        <category>杂项</category>
-      </categories>
-      <tags>
-        <tag>冲浪小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【hexo】next导航栏404</title>
-    <url>/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
-    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
-<p><img src="/.io//%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404%5Cpic1.jpg" alt></p>
-<p>然后重新生成静态文件并部署即可。</p>
-<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
-<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【JavaSE】权限修饰符</title>
     <url>/2020/05/30/%E3%80%90JavaSE%E3%80%91%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/</url>
     <content><![CDATA[<p>Java的访问权限修饰符总共有4中，依照权限大小的顺序依次为：</p>
@@ -460,6 +386,80 @@
       </tags>
   </entry>
   <entry>
+    <title>【hexo】next导航栏404</title>
+    <url>/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
+    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
+<p><img src="/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404%5Cpic1.jpg" alt></p>
+<p>然后重新生成静态文件并部署即可。</p>
+<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
+<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>chrome插件</title>
+    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
+<li><p>去应用商店自行下载</p>
+</li>
+<li><p>离线安装</p>
+<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
+<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
+<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
+<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
+</li>
+</ol>
+<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
+<li><p><strong>Crx4Chrome</strong></p>
+<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
+<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>扩展迷</strong></p>
+<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
+<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>chrome插件网</strong></p>
+<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
+<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
+</li>
+</ul>
+<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
+<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
+<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
+<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
+<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
+<ul>
+<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
+</li>
+<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
+<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
+]]></content>
+      <categories>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>冲浪小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>底层基础知识</title>
     <url>/2020/06/02/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>计算机需要解决的最根本问题其实是：如何代表数字</p>
@@ -477,7 +477,7 @@
 <h2 id="CPU的制作与原理"><a href="#CPU的制作与原理" class="headerlink" title="CPU的制作与原理"></a>CPU的制作与原理</h2><p><a href="https://www.sohu.com/a/255397866_468626" target="_blank" rel="noopener">https://www.sohu.com/a/255397866_468626</a></p>
 <p><a href="https://www.bilibili.com/video/av47388949?p=2" target="_blank" rel="noopener">https://www.bilibili.com/video/av47388949?p=2</a></p>
 <h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><h3 id="1-CPU缓存层次"><a href="#1-CPU缓存层次" class="headerlink" title="1.CPU缓存层次"></a>1.CPU缓存层次</h3><p>现代CPU的储存结构如下图所示。</p>
-<p><img src="/.io//%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5CCPU_cache.jpg" alt></p>
+<p><img src="/2020/06/02/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5CCPU_cache.jpg" alt></p>
 <p>SRAM: Static Random-Access Memory 静态随机存取器。静态是指只要保持通电状态，其内储存的数据就能恒常保持。</p>
 <p>DRAM： Dynamic Random Access Memory动态随机存取储存器。动态指其内的数据需要周期性的更新，否则会导致数据出错。</p>
 <p>为了缓和CPU运算速度远快于从内存读取数据的速度的矛盾，引入了缓存。</p>
@@ -508,8 +508,8 @@
 <p><strong>I：无效的（Invalid）</strong></p>
 <p>该缓存是无效的（可能有其他CPU修改了该缓存行）</p>
 <p>状态转换图及流程表</p>
-<p><img src="/.io//%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5CMESI_pic.jpg" alt></p>
-<p><img src="/.io//%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5Cmesi_chart.png" alt></p>
+<p><img src="/2020/06/02/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5CMESI_pic.jpg" alt></p>
+<p><img src="/2020/06/02/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5Cmesi_chart.png" alt></p>
 <p>在一个典型系统中，可能会有几个缓存（在多核系统中，每个核心都会有自己的缓存）共享主存总线，每个相应的<code>CPU</code>会发出读写请求，而缓存的目的是为了减少<code>CPU</code>读写共享主存的次数。</p>
 <p>一个缓存除在<code>Invalid</code>状态外都可以满足cpu的读请求，一个<code>Invalid</code>的缓存行必须从主存中读取（变成<code>S</code>或者 <code>E</code>状态）来满足该<code>CPU</code>的读请求。</p>
 <p>一个写请求只有在该缓存行是M或者E状态时才能被执行，如果缓存行处于<code>S</code>状态，必须先将其它缓存中该缓存行变成<code>Invalid</code>状态（也既是不允许不同<code>CPU</code>同时修改同一缓存行，即使修改该缓存行中不同位置的数据也不允许）。该操作经常作用广播的方式来完成，例如：<code>RequestFor Ownership</code> (<code>RFO</code>)。</p>
@@ -528,7 +528,7 @@
 </li>
 <li><p>同理，core2修改y后，也要通知core1重新从主存读取。</p>
 <p>就是在多核多线程并发场景下，多核需要操作不同变量位于同一个缓存行内的时候，会使得效率大打折扣。即为伪共享问题。</p>
-<p><img src="/.io//%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5Cfalse_sharing.jpg" alt="底层基础知识\false_sharing.jpg"></p>
+<p><img src="/2020/06/02/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%5Cfalse_sharing.jpg" alt="底层基础知识\false_sharing.jpg"></p>
 </li>
 </ul>
 <h3 id="常见解决方法"><a href="#常见解决方法" class="headerlink" title="常见解决方法"></a>常见解决方法</h3><h4 id="1-空间换时间（cache-line-padding）"><a href="#1-空间换时间（cache-line-padding）" class="headerlink" title="1.空间换时间（cache line padding）"></a>1.空间换时间（cache line padding）</h4><p>缓存行对齐（填充），即是当所需数据不足64字节时，用无意义的字节填满剩下的缓存行空间。</p>
