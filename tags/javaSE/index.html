@@ -82,7 +82,7 @@
 <meta name="description" content="盛年不重来 一日难再晨">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ShoR&#39;s note">
-<meta property="og:url" content="http://shor-ljx.github.io/tags/JavaSE/index.html">
+<meta property="og:url" content="http://shor-ljx.github.io/tags/javaSE/index.html">
 <meta property="og:site_name" content="ShoR&#39;s note">
 <meta property="og:description" content="盛年不重来 一日难再晨">
 <meta property="article:author" content="刘剑翔">
@@ -116,13 +116,13 @@
 
 
 
-  <link rel="canonical" href="http://ShoR-ljx.github.io/tags/JavaSE/"/>
+  <link rel="canonical" href="http://ShoR-ljx.github.io/tags/javaSE/"/>
 
 
 
 
 
-  <title>标签: JavaSE | ShoR's note</title>
+  <title>标签: javaSE | ShoR's note</title>
   
 
 
@@ -276,7 +276,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>JavaSE<small>标签</small>
+        <h1>javaSE<small>标签</small>
         </h1>
       </div>
 
@@ -288,37 +288,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/05/30/%E3%80%90JavaSE%E3%80%91%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/" itemprop="url">
+            <a class="post-title-link" href="/2020/05/26/%E3%80%90javaSE%E3%80%91%E5%85%B3%E9%94%AE%E5%AD%97/" itemprop="url">
               
-                <span itemprop="name">【JavaSE】权限修饰符</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-30T19:31:08+08:00"
-              content="2020-05-30" >
-          05-30
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/05/30/%E5%86%85%E9%83%A8%E7%B1%BB/" itemprop="url">
-              
-                <span itemprop="name">内部类</span>
+                <span itemprop="name">【javaSE】关键字</span>
               
             </a>
         
@@ -326,9 +298,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2020-05-30T15:38:37+08:00"
-              content="2020-05-30" >
-          05-30
+              datetime="2020-05-26T21:22:39+08:00"
+              content="2020-05-26" >
+          05-26
         </time>
       </div>
 
@@ -390,7 +362,7 @@
 
              
                
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -927,6 +899,50 @@
     }
 
     // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+ // handle and trigger popup window;
     $('.popup-trigger').click(function(e) {
       e.stopPropagation();
       if (isfetched === false) {

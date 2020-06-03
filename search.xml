@@ -84,6 +84,93 @@
       </tags>
   </entry>
   <entry>
+    <title>chrome插件</title>
+    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
+<li><p>去应用商店自行下载</p>
+</li>
+<li><p>离线安装</p>
+<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
+<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
+<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
+<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
+</li>
+</ol>
+<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
+<li><p><strong>Crx4Chrome</strong></p>
+<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
+<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>扩展迷</strong></p>
+<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
+<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>chrome插件网</strong></p>
+<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
+<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
+</li>
+</ul>
+<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
+<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
+<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
+<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
+<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
+<ul>
+<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
+</li>
+<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
+<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
+]]></content>
+      <categories>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>冲浪小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【hexo】测试图片显示问题</title>
+    <url>/2020/06/03/%E3%80%90hexo%E3%80%91%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>CPU存储系统</p>
+<p><img src="/2020/06/03/%E3%80%90hexo%E3%80%91%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/CPU_cache.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【hexo】next导航栏404</title>
+    <url>/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
+    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
+<p><img src="/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404%5Cpic1.jpg" alt></p>
+<p>然后重新生成静态文件并部署即可。</p>
+<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
+<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【javaSE】关键字</title>
     <url>/2020/05/26/%E3%80%90javaSE%E3%80%91%E5%85%B3%E9%94%AE%E5%AD%97/</url>
     <content><![CDATA[<p>Java关键字是预先定义好的，有特殊意义的标识符。在Java语言中关键字一律小写。关键字不可以用作变量名、方法名、类名、包名和参数类型。</p>
@@ -383,80 +470,6 @@
       </categories>
       <tags>
         <tag>JavaSE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【hexo】next导航栏404</title>
-    <url>/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
-    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
-<p><img src="/2020/05/27/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404%5Cpic1.jpg" alt></p>
-<p>然后重新生成静态文件并部署即可。</p>
-<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
-<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>chrome插件</title>
-    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
-<li><p>去应用商店自行下载</p>
-</li>
-<li><p>离线安装</p>
-<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
-<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
-<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
-<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
-</li>
-</ol>
-<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
-<li><p><strong>Crx4Chrome</strong></p>
-<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
-<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>扩展迷</strong></p>
-<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
-<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>chrome插件网</strong></p>
-<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
-<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
-</li>
-</ul>
-<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
-<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
-<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
-<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
-<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
-<ul>
-<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
-</li>
-<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
-</li>
-<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
-<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
-]]></content>
-      <categories>
-        <category>杂项</category>
-      </categories>
-      <tags>
-        <tag>冲浪小技巧</tag>
       </tags>
   </entry>
   <entry>
