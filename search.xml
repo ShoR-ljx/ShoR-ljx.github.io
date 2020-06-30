@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JMM</title>
-    <url>/2020/06/06/JMM/</url>
-    <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2>]]></content>
+    <title>IDEA_plugins搜索不到</title>
+    <url>/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/</url>
+    <content><![CDATA[<p>因为想下载jclasslib这个插件，但是在IDEA搜索显示不出来，在晚上找了下面的解决办法。</p>
+<p><img src="/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/figure.png" alt></p>
+<p><img src="/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/figure01.png" alt></p>
+<p>然后就是我最后实现的这种方法，说是宽带上网运营商将IDEA下载插件的网站屏蔽了，所以开手机<strong>热点</strong>连上去就可以下载了。</p>
+]]></content>
       <categories>
-        <category>JVM</category>
+        <category>IDEA</category>
       </categories>
       <tags>
-        <tag>JMM</tag>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
@@ -26,58 +30,14 @@
       </tags>
   </entry>
   <entry>
-    <title>IDEA_plugins搜索不到</title>
-    <url>/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/</url>
-    <content><![CDATA[<p>因为想下载jclasslib这个插件，但是在IDEA搜索显示不出来，在晚上找了下面的解决办法。</p>
-<p><img src="/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/figure.png" alt></p>
-<p><img src="/2020/06/05/IDEA-plugins%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0/figure01.png" alt></p>
-<p>然后就是我最后实现的这种方法，说是宽带上网运营商将IDEA下载插件的网站屏蔽了，所以开手机<strong>热点</strong>连上去就可以下载了。</p>
-]]></content>
+    <title>JMM</title>
+    <url>/2020/06/06/JMM/</url>
+    <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2>]]></content>
       <categories>
-        <category>IDEA</category>
+        <category>JVM</category>
       </categories>
       <tags>
-        <tag>IDEA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SQL中DQL、DML等概念及区别</title>
-    <url>/2020/06/16/SQL%E4%B8%ADDQL%E3%80%81DML%E7%AD%89%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%8C%BA%E5%88%AB/</url>
-    <content><![CDATA[<h2 id="SQL结构化查询语言包含6个部分"><a href="#SQL结构化查询语言包含6个部分" class="headerlink" title="SQL结构化查询语言包含6个部分"></a>SQL结构化查询语言包含6个部分</h2><p>1.数据查询语言（DQL: Data Query Language）数据检索语句，用于从表中获取数据。通常最常用的为保留字SELECT,并且常与FROM子句、WHERE子句组成查询SQL查询语句。语法：    SELECT &lt;字段名&gt; FROM &lt;表或视图名&gt; WHERE &lt;查询条件&gt;;</p>
-<p>2.数据操纵语言（DML：Data Manipulation Language）主要用来对数据库的数据进行一些操作，常用的就是INSERT、UPDATE、DELETE。语法：    INSERT INTO &lt;表名&gt;(列1,列2,…) VALUES (值1,值2,…);    UPDATE &lt;表名&gt; SET &lt;列名&gt;=新值 WHERE &lt;列名&gt;=某值;    DELETE FROM &lt;表名&gt; WHERE &lt;列名&gt;=某值;</p>
-<p>3.事务处理语言（DPL）事务处理语句能确保被DML语句影响的表的所有行及时得以更新。TPL语句包括BEGIN TRANSACTION、COMMIT和ROLLBACK。</p>
-<p>4.数据控制语言（DCL）通过GRANT和REVOKE，确定单个用户或用户组对数据库对象的访问权限。</p>
-<p>5.数据定义语言（DDL）常用的有CREATE和DROP，用于在数据库中创建新表或删除表，以及为表加入索引等。</p>
-<p>6.指针控制语言（CCL）它的语句，想DECLARE CURSOR、FETCH INTO和UPDATE WHERE CURRENT用于对一个或多个表单独行的操作。注：   SQL是一个标准，每个数据库服务器都在标准的基础上进行了相应的调整和扩展，相应的，每个数据库对数据的各种操作语言的语法就会做出相应的调整。在MySQL中，SQL通常分为DDL、DML和查询，还包括一些其它语句类别。MySQL将SELECT与INSERT、UPDATE、DELETE分别划分到了查询和DML，但是也并非绝对的划分，通常会将SELECT与INSERT、UPDATE、DELETE一起划分为DML。具体参见MySQL官网中的MySQL Glossary.</p>
-]]></content>
-      <categories>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MySql基础</title>
-    <url>/2020/06/04/MySql%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h1><h2 id="条件筛选"><a href="#条件筛选" class="headerlink" title="条件筛选"></a>条件筛选</h2><h3 id="like"><a href="#like" class="headerlink" title="like"></a>like</h3><p>like子句可以在where子句中使用，用来匹配某个字段。提供了四种匹配符：</p>
-<ul>
-<li><p><code>%</code> :表示0个或多个字符。可以匹配任意类型和长度的字符。如果是中文使用%%。</p>
-</li>
-<li><p><code>_</code>:表示单个任意字符。常用来限制匹配的数量。</p>
-</li>
-<li><p><code>[]</code>:表示括号内所列字符的一个（类似正则表达式）。指定一个字符、字符串或范围，要求所匹配对象为它们中的任一个。</p>
-</li>
-<li><p><code>[^]</code>:表示不在括号所在列之内的单个字符。上述的特殊字符如果无法实现可以用[]括起来。</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">count</span>(*) <span class="keyword">from</span> teacher <span class="keyword">where</span> tname <span class="keyword">like</span> <span class="string">'李%'</span>;</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>MySql</category>
-      </categories>
-      <tags>
-        <tag>基础</tag>
-        <tag>MySql</tag>
+        <tag>JMM</tag>
       </tags>
   </entry>
   <entry>
@@ -103,72 +63,76 @@
       </tags>
   </entry>
   <entry>
-    <title>【JavaSE】权限修饰符</title>
-    <url>/2020/05/30/%E3%80%90JavaSE%E3%80%91%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/</url>
-    <content><![CDATA[<p>Java的访问权限修饰符总共有4中，依照权限大小的顺序依次为：</p>
-<ol>
-<li>public</li>
-<li>protected</li>
-<li>friendly(default)</li>
-<li>private</li>
-</ol>
-<p>具体权限表示可以通过下面的表格来详细描述：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>public</th>
-<th>protected</th>
-<th>default</th>
-<th>private</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>本类</td>
-<td>可见</td>
-<td>可见</td>
-<td>可见</td>
-<td>可见</td>
-</tr>
-<tr>
-<td>同包其他类</td>
-<td>可见</td>
-<td>可见</td>
-<td>可见</td>
-<td>不可见</td>
-</tr>
-<tr>
-<td>不同包其他类</td>
-<td>可见</td>
-<td>不可见</td>
-<td>不可见</td>
-<td>不可见</td>
-</tr>
-<tr>
-<td>同包子类</td>
-<td>可见</td>
-<td>可见</td>
-<td>可见</td>
-<td>不可见</td>
-</tr>
-<tr>
-<td>不同包子类</td>
-<td>可见</td>
-<td>可见</td>
-<td>不可见</td>
-<td>不可见</td>
-</tr>
-</tbody></table>
-<p>可以看到private用有最低的权限，该修饰符下的类、属性或是方法只能由本类使用，其他类无法访问。</p>
-<p>default权限属于包权限，该包下的所有类均可以访问，但其他包的任何类都无权访问。</p>
-<p>protected属于子类权限，同包下的任何类可以访问，不同包下的类如果是该类的子类仍然可以访问该权限修饰符修饰的类、属性或是方法。</p>
-<p>public拥有最高权限，任何类都可以访问。</p>
+    <title>SQL中DQL、DML等概念及区别</title>
+    <url>/2020/06/16/SQL%E4%B8%ADDQL%E3%80%81DML%E7%AD%89%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%8C%BA%E5%88%AB/</url>
+    <content><![CDATA[<h2 id="SQL结构化查询语言包含6个部分"><a href="#SQL结构化查询语言包含6个部分" class="headerlink" title="SQL结构化查询语言包含6个部分"></a>SQL结构化查询语言包含6个部分</h2><p>1.数据查询语言（DQL: Data Query Language）数据检索语句，用于从表中获取数据。通常最常用的为保留字SELECT,并且常与FROM子句、WHERE子句组成查询SQL查询语句。语法：    SELECT &lt;字段名&gt; FROM &lt;表或视图名&gt; WHERE &lt;查询条件&gt;;</p>
+<p>2.数据操纵语言（DML：Data Manipulation Language）主要用来对数据库的数据进行一些操作，常用的就是INSERT、UPDATE、DELETE。语法：    INSERT INTO &lt;表名&gt;(列1,列2,…) VALUES (值1,值2,…);    UPDATE &lt;表名&gt; SET &lt;列名&gt;=新值 WHERE &lt;列名&gt;=某值;    DELETE FROM &lt;表名&gt; WHERE &lt;列名&gt;=某值;</p>
+<p>3.事务处理语言（DPL）事务处理语句能确保被DML语句影响的表的所有行及时得以更新。TPL语句包括BEGIN TRANSACTION、COMMIT和ROLLBACK。</p>
+<p>4.数据控制语言（DCL）通过GRANT和REVOKE，确定单个用户或用户组对数据库对象的访问权限。</p>
+<p>5.数据定义语言（DDL）常用的有CREATE和DROP，用于在数据库中创建新表或删除表，以及为表加入索引等。</p>
+<p>6.指针控制语言（CCL）它的语句，想DECLARE CURSOR、FETCH INTO和UPDATE WHERE CURRENT用于对一个或多个表单独行的操作。注：   SQL是一个标准，每个数据库服务器都在标准的基础上进行了相应的调整和扩展，相应的，每个数据库对数据的各种操作语言的语法就会做出相应的调整。在MySQL中，SQL通常分为DDL、DML和查询，还包括一些其它语句类别。MySQL将SELECT与INSERT、UPDATE、DELETE分别划分到了查询和DML，但是也并非绝对的划分，通常会将SELECT与INSERT、UPDATE、DELETE一起划分为DML。具体参见MySQL官网中的MySQL Glossary.</p>
 ]]></content>
       <categories>
-        <category>javaSE</category>
+        <category>MySQL</category>
       </categories>
       <tags>
-        <tag>JavaSE</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>chrome插件</title>
+    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
+<li><p>去应用商店自行下载</p>
+</li>
+<li><p>离线安装</p>
+<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
+<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
+<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
+<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
+</li>
+</ol>
+<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
+<li><p><strong>Crx4Chrome</strong></p>
+<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
+<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>扩展迷</strong></p>
+<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
+<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>chrome插件网</strong></p>
+<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
+<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
+</li>
+</ul>
+<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
+<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
+<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
+<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
+<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
+<ul>
+<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
+</li>
+<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
+<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
+]]></content>
+      <categories>
+        <category>杂项</category>
+      </categories>
+      <tags>
+        <tag>冲浪小技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -255,6 +219,114 @@
       </tags>
   </entry>
   <entry>
+    <title>etherCAT运动控制模式</title>
+    <url>/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="运动控制"><a href="#运动控制" class="headerlink" title="运动控制"></a>运动控制</h2><h3 id="什么是运动控制？"><a href="#什么是运动控制？" class="headerlink" title="什么是运动控制？"></a>什么是运动控制？</h3><p>　　运动控制就是通过机械传动装置对运动部件的位置、速度进行实时的控制管理，使运动部件按照预期的轨迹和规定的运动参数（如速度、加速度参数等）完成相应的动作。</p>
+<h3 id="运动控制系统的典型构成"><a href="#运动控制系统的典型构成" class="headerlink" title="运动控制系统的典型构成"></a>运动控制系统的典型构成</h3><p>　1. 开环系统（电机：步进电机；驱动器：脉冲分配，电流放大）</p>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/%E5%BC%80%E7%8E%AF%E7%B3%BB%E7%BB%9F.png" alt></p>
+<ol start="2">
+<li>半闭环系统（电机：直流伺服电机、交流伺服电机；驱动器：电流放大，位置反馈控制）</li>
+</ol>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/%E5%8D%8A%E9%97%AD%E7%8E%AF%E7%B3%BB%E7%BB%9F1.png" alt></p>
+<pre><code>3. 半闭环系统（直流伺服电机、交流伺服电机；驱动器：速度反馈控制，电流放大；运动控制器：运动规划，速度指令，位置反馈取自电机轴）</code></pre><p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/%E5%8D%8A%E9%97%AD%E7%8E%AF%E7%B3%BB%E7%BB%9F2.png" alt></p>
+<ol start="4">
+<li>全闭环系统（驱动器：速度反馈控制，电流放大；运动控制器：运动规划，速度指令，位置反馈取自负载）</li>
+</ol>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/%E5%85%A8%E9%97%AD%E7%8E%AF%E7%B3%BB%E7%BB%9F.png" alt></p>
+<p>​        全闭环伺服系统可以消除机械传动带来的误差，而半闭环系统只能补偿部分误差，因此，半闭环伺服系统的精度比全闭环伺服系统的精度要低一些。由于采用了位置检测装置，所以全闭环系统的位置精度在其他因素确定了之后，主要取决于检测装置的分辨率和精度。</p>
+<p> 　注意半闭环系统2与3的区别。驱动器如果工作在位置模式，运动控制器（运动控制卡、PLC…）就只做位置轨迹的规划（Trajectory generator），每个通信周期发送目标位置到驱动器。驱动器接收到设定位置后，与当前位置比较，并依据控制器-驱动器通信周期与驱动器位置环周期进行线性或者非线性插值，将插值作为每个位置环周期的“设定位置”。</p>
+<p>　　举个例子，假设驱动器位置环周期是125us，控制器和驱动器通信周期为 2ms，当前位置为 0，目标位置为 1mm，那么接下来 16 个周期驱动器位置环的“设定位置”就依次为：0.0625mm，0.125mm， 0.1875mm， 0.25mm，……1mm. 如果没有插值，那么接下来驱动器的第 1 个周期的设定位置就是 1mm，驱动器在第 125us时，位置为 1mm，在 2-16 个周期，设定位置维持不变，相当于电机停止，直到第 2ms，接收到新的“给定位置”。由于间隔仅为 2ms，电机并不会真的停止，而是表现为顿挫感，转动不流畅，不连贯。 </p>
+<p>　　驱动器如果工作在速度模式，那么控制器就不仅做位置曲线的规划，还要完成位置环的调节。此时NC周期与位置环周期相等，不必插值。伺服驱动器的位置环被忽略，其速度环直接接受上层给出的“设定速度。</p>
+<h2 id="驱动器的工作模式（Modes-of-operation）"><a href="#驱动器的工作模式（Modes-of-operation）" class="headerlink" title="驱动器的工作模式（Modes of operation）"></a>驱动器的工作模式（Modes of operation）</h2><p> CANopen DSP 402协议中对象字典6060h 处定义了驱动器的工作模式：</p>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F.png" alt></p>
+<p>不同的驱动器支持的工作模式有所不同。比如下图分别是MAXON的EPOS2驱动器支持的模式和MAXPOS驱动器支持的工作模式（可以看出它们都遵循了CANopen 402标准）：</p>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/EPOS2.png" alt></p>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/MAXPOS.png" alt></p>
+<p>本文主要介绍倍福控制器和倍福驱动器、步科驱动器、MAXPOS驱动器常用的CSP/CSV/CST这三种模式。</p>
+<h3 id="CSP"><a href="#CSP" class="headerlink" title="CSP"></a>CSP</h3><p><strong>周期同步位置模式</strong></p>
+<p>CSP模式下，上位机（5130）完成位置指令规划，然后将规划好的目标位置607Ah上以周期同步的方式发送给伺服驱动器，位置、速度、转矩控制由伺服驱动器内部完成。</p>
+<p><img src="/2020/06/26/etherCAT%E8%BF%90%E5%8A%A8%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%BC%8F/csp.png" alt></p>
+<h3 id="CSV"><a href="#CSV" class="headerlink" title="CSV"></a>CSV</h3><p><strong>周期同步速度模式</strong></p>
+<p>周期同步速度模式下，控制器将计算好的目标速度 60FF 周期同步性的发送给伺服驱动器，速度、转矩调节由伺服驱动器内部执行。</p>
+<h3 id="CST"><a href="#CST" class="headerlink" title="CST"></a>CST</h3><p>控制器将计算好的目标转矩 6071h 周期性同步的发送给伺服驱动器，转矩调节由伺服内部执行。当速度达到限幅后将进入调速阶段。</p>
+]]></content>
+      <categories>
+        <category>倍福</category>
+      </categories>
+      <tags>
+        <tag>运动控制模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【JavaSE】权限修饰符</title>
+    <url>/2020/05/30/%E3%80%90JavaSE%E3%80%91%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/</url>
+    <content><![CDATA[<p>Java的访问权限修饰符总共有4中，依照权限大小的顺序依次为：</p>
+<ol>
+<li>public</li>
+<li>protected</li>
+<li>friendly(default)</li>
+<li>private</li>
+</ol>
+<p>具体权限表示可以通过下面的表格来详细描述：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>public</th>
+<th>protected</th>
+<th>default</th>
+<th>private</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>本类</td>
+<td>可见</td>
+<td>可见</td>
+<td>可见</td>
+<td>可见</td>
+</tr>
+<tr>
+<td>同包其他类</td>
+<td>可见</td>
+<td>可见</td>
+<td>可见</td>
+<td>不可见</td>
+</tr>
+<tr>
+<td>不同包其他类</td>
+<td>可见</td>
+<td>不可见</td>
+<td>不可见</td>
+<td>不可见</td>
+</tr>
+<tr>
+<td>同包子类</td>
+<td>可见</td>
+<td>可见</td>
+<td>可见</td>
+<td>不可见</td>
+</tr>
+<tr>
+<td>不同包子类</td>
+<td>可见</td>
+<td>可见</td>
+<td>不可见</td>
+<td>不可见</td>
+</tr>
+</tbody></table>
+<p>可以看到private用有最低的权限，该修饰符下的类、属性或是方法只能由本类使用，其他类无法访问。</p>
+<p>default权限属于包权限，该包下的所有类均可以访问，但其他包的任何类都无权访问。</p>
+<p>protected属于子类权限，同包下的任何类可以访问，不同包下的类如果是该类的子类仍然可以访问该权限修饰符修饰的类、属性或是方法。</p>
+<p>public拥有最高权限，任何类都可以访问。</p>
+]]></content>
+      <categories>
+        <category>javaSE</category>
+      </categories>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【hexo】测试图片显示问题</title>
     <url>/2020/06/03/%E3%80%90hexo%E3%80%91%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>测试图片：</p>
@@ -266,6 +338,323 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true </span><br><span class="line"></span><br><span class="line">filter_image:</span><br><span class="line"></span><br><span class="line">  log: true</span><br></pre></td></tr></table></figure>
 
 <p>然后在插入图片的位置输入相对路径，图片存放在和博客文章同级的同名目录下。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git</title>
+    <url>/2020/06/26/git/</url>
+    <content><![CDATA[<h2 id="版本控制软件的历史"><a href="#版本控制软件的历史" class="headerlink" title="版本控制软件的历史"></a>版本控制软件的历史</h2><p>1.集中化版本控制系统</p>
+<p>Centralized Version Control Systems (CVCS)</p>
+<p>比如：CVS, Subversion, Perforce, etc.</p>
+<p>这种版本控制系统有一个单一的集中管理的服务器，保存所有文件的最新版本，大家可以通过连接到这台服务器上来获取或者提交文件。</p>
+<p>​                                                                                服务器  </p>
+<p>​                                                                                    |</p>
+<p>​                                                             |                     |                        |</p>
+<p>​                                            程序员A                         B                            C</p>
+<p>2.分布式版本控制系统</p>
+<p>Distributed Version Control Systems (DVCS)</p>
+<hr>
+<p>比如：Git, Mercurial, Bazaar, etc.</p>
+<p>分布式的版本控制系统会把<strong>代码仓库完整地镜像</strong>下来，这样任何一个服务器发生故障，都可以用其他的仓库来修复。</p>
+<p>更进一步，这种模式可以更方便的和不同公司的人进行同一项目的开发，因为两个远程代码仓库可以交互，这在之前的集中式系统中是无法做到的。</p>
+<p><strong>那么什么叫“把代码仓库完整地镜像下来”呢？</strong></p>
+<p>CVCS 每个版本存放的是当前版本与前一个版本的差异，因此也被称作基于差异的版本控制 (delta-based)；</p>
+<p>Git 存储的是所有文件的一个快照 (snapshot)，如果有的文件没有修改，那就只保留一个 reference 指向之前存储的文件。</p>
+<p>不是很好理解？那接着看吧～</p>
+<h2 id="Git-的数据模型"><a href="#Git-的数据模型" class="headerlink" title="Git 的数据模型"></a>Git 的数据模型</h2><hr>
+<p><strong>1.什么是快照 (snapshot) 呢？</strong></p>
+<p>首先我们来学两个 Git 中的术语：</p>
+<ul>
+<li>blob, 就是单个的文件；</li>
+<li>tree, 就是一个文件夹。</li>
+</ul>
+<p>快照则是被追踪的最顶层的树。</p>
+<p>比如在“算法”分类下有解释、题目等分支。</p>
+<p>那么一个快照就是追踪的“算法”这颗树。</p>
+<p>2.本地库的数据模型</p>
+<p>Git 记录了每个快照的 parent，也就是当前这个文件夹的上一个版本。</p>
+<p>那么快照的迭代更新的过程就可以表示为一个<strong>有向无环图</strong>.</p>
+<p><img src="/2020/06/26/git/%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E6%A8%A1%E5%9E%8B.png" alt></p>
+<p>每个快照其实都对应了一次<code>commit</code>，用代码表示为</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">commit</span> </span>&#123;</span><br><span class="line">  array&lt;commit&gt; parents</span><br><span class="line">  String author</span><br><span class="line">  String message</span><br><span class="line">  Tree snapshot</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这就是 Git 的数据模型。</p>
+<p>blob, tree, snapshot 其实都一样，它们在 Git 中都是<code>对象</code>，都可以被引用或者被搜索，会基于它们的 <code>SHA-1 hash</code> 进行寻址。</p>
+<p><code>git cat-file -t</code>: 查看每个 SHA-1 的类型;<br><code>git cat-file -p</code>: 查看每个对象的内容和简单的数据结构。</p>
+<p>但是通过这个哈希值来搜索也太不方便了，毕竟这是一串 40 位的十六进制字符，就是第二部分 <code>git log</code> 里输出的那个<code>编码</code>。</p>
+<p>因此，Git 还给了一个引用 <code>reference</code>。</p>
+<p>比如，我们常见的 <code>HEAD</code> 就是一个特殊的引用。</p>
+<p>本地库就是由 <code>对象</code> 和 <code>引用</code> 构成的，或者叫 <code>Repositories</code>.</p>
+<p>在硬盘上，Git 只存储 <code>对象</code> 和 <code>引用</code>，所有的 Git 命令都对应提交一个快照。</p>
+<p>那有哪些常用命令呢？</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>本章分三大部分介绍日常常用命令：</p>
+<ul>
+<li><strong>本地操作</strong></li>
+<li><strong>和远程库的交互</strong></li>
+<li><strong>团队协作 - 分支</strong></li>
+</ul>
+<h3 id="本地操作"><a href="#本地操作" class="headerlink" title="本地操作"></a>本地操作</h3><p>在学习常用命令之前，你首先需要知道的 Git 的「三个分区」和对应的文件的「三种状态」：</p>
+<p><img src="/2020/06/26/git/git%E5%88%86%E5%8C%BA.png" alt></p>
+<ul>
+<li><p><code>工作区</code>：就是你本地实际写代码的地方，无论你是用 vim 直接改也好，还是在 IDE 里写，都无所谓。</p>
+</li>
+<li><ul>
+<li>对应的文件状态是：<code>modified</code>，已修改，但还没保存到数据库中。</li>
+</ul>
+</li>
+<li><p><code>暂存区</code>：就是临时存放的地方。</p>
+</li>
+<li><ul>
+<li>对应的文件状态是：<code>staged</code>，Git 已经对该文件做了标记，下次提交知道要包含它。</li>
+</ul>
+</li>
+<li><p><code>本地库</code>：存放本地历史版本信息。</p>
+</li>
+<li><ul>
+<li>对应的文件状态是：<code>committed</code>，文件已经安全的保存在本地数据库中。</li>
+</ul>
+</li>
+</ul>
+<h4 id="1-git-add"><a href="#1-git-add" class="headerlink" title="1. $ git add"></a>1. $ git add</h4><p>工作区改完了代码，就用 <code>git add</code> 提交到暂存区。</p>
+<p>这里如果文件改动的比较多，但又不是每个都需要提交，我会设置 <code>git ignore file</code>，就表示这些文件不要提交，比如在 build project 的时候会自动生成的那些文件等等。</p>
+<h4 id="2-git-commit-m-“comment”"><a href="#2-git-commit-m-“comment”" class="headerlink" title="2. $ git commit -m “comment”"></a>2. $ git commit -m “comment”</h4><p>从暂存区提交到本地库，就需要用 commit。</p>
+<p>一般后面都会跟个 <code>-m</code> 加句 <code>comment</code>，简单说下改动的内容或者原因，在公司大家默认也会把 <code>Jira</code>链接附上，这样就知道这个改动对应哪个任务。</p>
+<p>那如果想再改，再重新 <code>git add</code> 即可，但是 <code>commit</code> 这句需要改成</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git commit --amend</span><br></pre></td></tr></table></figure>
+
+<p>这样就还是一条 git log 信息。</p>
+<h4 id="3-git-log"><a href="#3-git-log" class="headerlink" title="3. $ git log"></a>3. $ git log</h4><p><code>git log</code> 可以查看到提交过的信息，从近到远显示每次 commit 的 comment 还有作者、日期等信息，比如大概长这个样子：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">commit <span class="number">5</span>abcd17dggs9s0a7a91nfsagd8ay76875afs7d6</span><br><span class="line">Author: Xiaoqi&lt;xiaoqi@<span class="number">163</span>.com&gt;</span><br><span class="line">Date: xxx xxx xxx</span><br><span class="line">改了 Test 文件</span><br></pre></td></tr></table></figure>
+
+<p>commit 后面的这个<code>编号</code>，是每次历史记录的一个<code>索引</code>。比如如果需要对版本进行前进或者后退的时候，就需要用到它。</p>
+<p>这样打印的 log 太多，更简洁的打印方式是：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git log --oneline</span><br></pre></td></tr></table></figure>
+
+<p>就一行打印出来了。</p>
+<p>或者：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git reflog</span><br></pre></td></tr></table></figure>
+
+<p>更常用一些。</p>
+<h4 id="4-git-reset"><a href="#4-git-reset" class="headerlink" title="4. $ git reset"></a>4. $ git reset</h4><p>那我们刚刚说过，如果需要前进或退回到某个版本，就用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git reset --hard &lt;编号&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样就直接跳到了这个<code>编号</code>对应的那个版本。</p>
+<p>那么这个 <code>hard</code> 是什么意思呢？</p>
+<p>这里有 3 个参数：<code>hard</code>, <code>soft</code>, <code>mixed</code>，我们一一来说一下。</p>
+<p>回到我们最重要的这张图上来：</p>
+<p><img src="/2020/06/26/git/git%E5%88%86%E5%8C%BA.png" alt></p>
+<p>我们刚刚说的前进或后退到某一版本，是对<code>本地库</code>进行的操作。</p>
+<p>那有个问题：<br><strong>本地库的代码跳到那个版本之后，工作区和暂存区的代码就和本地库的不同步了呀！</strong></p>
+<p>那这些参数就是用来控制这些是否<strong>同步</strong>的。</p>
+<h4 id="git-reset-–hard-xxx"><a href="#git-reset-–hard-xxx" class="headerlink" title="$ git reset –hard xxx"></a>$ git reset –hard xxx</h4><p>三个区都同步，都跳到这个 xxx 的版本上。</p>
+<h4 id="git-reset-–soft-xxx"><a href="#git-reset-–soft-xxx" class="headerlink" title="$ git reset –soft xxx"></a>$ git reset –soft xxx</h4><p>前面两个区不同步，就只有本地库跳到这个版本。</p>
+<h4 id="git-reset-–mixed-xxx"><a href="#git-reset-–mixed-xxx" class="headerlink" title="$ git reset –mixed xxx"></a>$ git reset –mixed xxx</h4><p>暂存区同步，工作区不动。</p>
+<p>所以呢，用的多的就是 hard.</p>
+<h3 id="远程交互"><a href="#远程交互" class="headerlink" title="远程交互"></a>远程交互</h3><p><img src="/2020/06/26/git/%E8%BF%9C%E7%A8%8B%E4%BA%A4%E4%BA%92.png" alt></p>
+<p>和远程库的交互主要是<code>推</code>、<code>拉</code>，也就是写入和读取。</p>
+<h4 id="5-git-push"><a href="#5-git-push" class="headerlink" title="5. $ git push"></a>5. $ git push</h4><p>小刘写完了代码，要提交到公司的代码库里，这个过程要用 <code>git push</code>.</p>
+<p>当然了，这么用会被打的。。毕竟还要 cr 呢。</p>
+<h4 id="5-git-clone"><a href="#5-git-clone" class="headerlink" title="5. $ git clone"></a>5. $ git clone</h4><p>新来的实习生首先要 clone 整个项目到本地来，然后才能增删改查。</p>
+<p>当然了实际工作中也没人这么用。。因为每家公司都会有自己包装的工具。不过如果是做 Github 上的开源项目，就用得上了。</p>
+<h4 id="6-git-pull"><a href="#6-git-pull" class="headerlink" title="6. $ git pull"></a>6. $ git pull</h4><p>小刘提交了新的代码之后，领导要审查呀，所以用 <code>git pull</code> 把最新的代码拉取下来瞅瞅。</p>
+<p>实际上呢，</p>
+<p><code>git pull = fetch + merge</code></p>
+<h4 id="7-git-fetch"><a href="#7-git-fetch" class="headerlink" title="7. $ git fetch"></a>7. $ git fetch</h4><p><code>git fetch</code> 这个操作是将远程库的数据下载到本地库，但是工作区中的文件没有更新。</p>
+<p><img src="/2020/06/26/git/fetch.png" alt="img"></p>
+<p>而要谈 <code>git merge</code>，我们还需要先讲下<code>分支</code>。</p>
+<p><code>merge</code> 是 <code>git pull</code> 默认的选项，合并其实还有另外一种方法：<code>rebase</code>，中文叫做<strong>变基</strong>。</p>
+<h4 id="8-git-rebase"><a href="#8-git-rebase" class="headerlink" title="8. $ git rebase"></a>8. $ git rebase</h4><p>rebase 的作用更多的是来整合分叉的历史，可以将某个分支上的所有修改都移到另一分支上，就像是变了基底。</p>
+<h3 id="分支与合并"><a href="#分支与合并" class="headerlink" title="分支与合并"></a>分支与合并</h3><p>首先我们来看几个关于分支的基本操作：</p>
+<h4 id="9-查看分支："><a href="#9-查看分支：" class="headerlink" title="9. 查看分支："></a>9. 查看分支：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git branch</span><br></pre></td></tr></table></figure>
+
+<p>类似于<code>ls</code>，能够列出当前所有分支。</p>
+<p><code>git branch -v</code> 能够显示更多信息。</p>
+<h4 id="10-创建分支："><a href="#10-创建分支：" class="headerlink" title="10. 创建分支："></a>10. 创建分支：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git branch &lt;branchName&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="11-切换分支："><a href="#11-切换分支：" class="headerlink" title="11. 切换分支："></a>11. 切换分支：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git checkout &lt;branchName&gt;</span><br></pre></td></tr></table></figure>
+
+<p>有了分支之后必然会有合并：</p>
+<h4 id="12-合并分支："><a href="#12-合并分支：" class="headerlink" title="12. 合并分支："></a>12. 合并分支：</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git merge &lt;branchName&gt;</span><br></pre></td></tr></table></figure>
+
+<p>而合并时就可能会有冲突，什么时候会有冲突呢？：</p>
+<p><strong>在同一个文件的同一个位置修改时。</strong></p>
+<p>因为 Git 会努力的把你们改动不同的地方合并在一起，但如果实在是在同一个地方改的，那它也没办法了，只能留给程序员去手动处理了。</p>
+<p>当然了，每个命令延伸下去还有无限多个，本文不可能涵盖全部，所以在此重磅推荐齐姐精心挑选的三大学习资源，大家可以自行享用～</p>
+<p>​                                                                            <strong>学习资源</strong></p>
+<hr>
+<ul>
+<li><p>git help</p>
+</li>
+<li><p>pro git</p>
+<p>英文版：</p>
+<p><code>https://git-scm.com/book/en/v2</code></p>
+<p>中文版：</p>
+<p><code>https://git-scm.com/book/zh/v2</code></p>
+</li>
+<li><p>玩游戏</p>
+<p>Practice makes perfect!</p>
+<p>推荐一个宝藏资源：玩游戏来练 Git</p>
+<p>项目：<code>https://github.com/pcottle/learnGitBranching</code></p>
+<p>网址：<code>https://learngitbranching.js.org/</code></p>
+</li>
+</ul>
+<p>我熟悉很多工具都是通过小游戏来练习的，比如 vim 的操作，还是蛮推荐这种方式的。就不剧透啦，大家自己去探索吧～</p>
+<p>转载自：<a href="https://mp.weixin.qq.com/s/l9svfi6nezphazmXF1-vnQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/l9svfi6nezphazmXF1-vnQ</a></p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二叉树</title>
+    <url>/2020/06/08/%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
+    <content><![CDATA[<h2 id="二叉树的基本算法"><a href="#二叉树的基本算法" class="headerlink" title="二叉树的基本算法"></a>二叉树的基本算法</h2><p>先序：头 -  左 - 右</p>
+<p>中序：左 - 头 - 右</p>
+<p>后序：左 - 右 - 头</p>
+<h3 id="用-栈-实现二叉树的先序-中序-后续-遍历"><a href="#用-栈-实现二叉树的先序-中序-后续-遍历" class="headerlink" title="用 栈 实现二叉树的先序 中序 后续 遍历"></a>用 栈 实现二叉树的先序 中序 后续 遍历</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Node结构</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">      value = v;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先序</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pre</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pre-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      stack.add(head);</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty()) &#123;</span><br><span class="line">         head = stack.pop();</span><br><span class="line">         System.out.print(head.value + <span class="string">" "</span>);</span><br><span class="line">         <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head.right);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head.left);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//中序</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">in</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"in-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty() || head != <span class="keyword">null</span>) &#123;</span><br><span class="line">         <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head);</span><br><span class="line">            head = head.left;</span><br><span class="line">         &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            head = stack.pop();</span><br><span class="line">            System.out.print(head.value + <span class="string">" "</span>);</span><br><span class="line">            head = head.right;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//两个栈实现后序遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pos1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pos-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; s1 = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      Stack&lt;Node&gt; s2 = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      s1.push(head);</span><br><span class="line">      <span class="keyword">while</span> (!s1.isEmpty()) &#123;</span><br><span class="line">         head = s1.pop();</span><br><span class="line">         s2.push(head);</span><br><span class="line">         <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            s1.push(head.left);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            s1.push(head.right);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">while</span> (!s2.isEmpty()) &#123;</span><br><span class="line">         System.out.print(s2.pop().value + <span class="string">" "</span>);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//一个栈实现后序遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pos2</span><span class="params">(Node h)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pos-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (h != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      stack.push(h);</span><br><span class="line">      Node c = <span class="keyword">null</span>;</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty()) &#123;</span><br><span class="line">         c = stack.peek();</span><br><span class="line">         <span class="keyword">if</span> (c.left != <span class="keyword">null</span> &amp;&amp; h != c.left &amp;&amp; h != c.right) &#123;</span><br><span class="line">            stack.push(c.left);</span><br><span class="line">         &#125; <span class="keyword">else</span> <span class="keyword">if</span> (c.right != <span class="keyword">null</span> &amp;&amp; h != c.right) &#123;</span><br><span class="line">            stack.push(c.right);</span><br><span class="line">         &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.print(stack.pop().value + <span class="string">" "</span>);</span><br><span class="line">            h = c;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="二叉树的按层遍历"><a href="#二叉树的按层遍历" class="headerlink" title="二叉树的按层遍历"></a>二叉树的按层遍历</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//以队列实现二叉树的按层遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">level</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();<span class="comment">//linkedList方法，返回队头的节点并释放</span></span><br><span class="line">      System.out.println(cur.value);</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//用Map实现返回二叉树的最大宽度</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxWidthUseMap</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   <span class="comment">// key 在 哪一层，value</span></span><br><span class="line">   HashMap&lt;Node, Integer&gt; levelMap = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">   levelMap.put(head, <span class="number">1</span>);</span><br><span class="line">   <span class="keyword">int</span> curLevel = <span class="number">1</span>; <span class="comment">// 当前你正在统计哪一层的宽度</span></span><br><span class="line">   <span class="keyword">int</span> curLevelNodes = <span class="number">0</span>; <span class="comment">// 当前层curLevel层，宽度目前是多少</span></span><br><span class="line">   <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();</span><br><span class="line">      <span class="keyword">int</span> curNodeLevel = levelMap.get(cur);</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         levelMap.put(cur.left, curNodeLevel + <span class="number">1</span>);</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         levelMap.put(cur.right, curNodeLevel + <span class="number">1</span>);</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (curNodeLevel == curLevel) &#123;</span><br><span class="line">         curLevelNodes++;</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">         max = Math.max(max, curLevelNodes);</span><br><span class="line">         curLevel++;</span><br><span class="line">         curLevelNodes = <span class="number">1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   max = Math.max(max, curLevelNodes);</span><br><span class="line">   <span class="keyword">return</span> max;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//不是用Map实现返回二叉树的最大宽度</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxWidthNoMap</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   Node curEnd = head; <span class="comment">// 当前层，最右节点是谁</span></span><br><span class="line">   Node nextEnd = <span class="keyword">null</span>; <span class="comment">// 下一层，最右节点是谁</span></span><br><span class="line">   <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">int</span> curLevelNodes = <span class="number">0</span>; <span class="comment">// 当前层的节点数</span></span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">         nextEnd = cur.left;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">         nextEnd = cur.right;</span><br><span class="line">      &#125;</span><br><span class="line">      curLevelNodes++;</span><br><span class="line">      <span class="keyword">if</span> (cur == curEnd) &#123;</span><br><span class="line">         max = Math.max(max, curLevelNodes);</span><br><span class="line">         curLevelNodes = <span class="number">0</span>;</span><br><span class="line">         curEnd = nextEnd;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> max;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="二叉树的序列化与反序列化"><a href="#二叉树的序列化与反序列化" class="headerlink" title="二叉树的序列化与反序列化"></a>二叉树的序列化与反序列化</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * 二叉树可以通过先序、后序或者按层遍历的方式序列化和反序列化，</span></span><br><span class="line"><span class="comment"> * 以下代码全部实现了。</span></span><br><span class="line"><span class="comment"> * 但是，二叉树无法通过中序遍历的方式实现序列化和反序列化</span></span><br><span class="line"><span class="comment"> * 因为不同的两棵树，可能得到同样的中序序列，即便补了空位置也可能一样。</span></span><br><span class="line"><span class="comment"> * 比如如下两棵树</span></span><br><span class="line"><span class="comment"> *         __2</span></span><br><span class="line"><span class="comment"> *        /</span></span><br><span class="line"><span class="comment"> *       1</span></span><br><span class="line"><span class="comment"> *       和</span></span><br><span class="line"><span class="comment"> *       1__</span></span><br><span class="line"><span class="comment"> *          \</span></span><br><span class="line"><span class="comment"> *           2</span></span><br><span class="line"><span class="comment"> * 补足空位置的中序遍历结果都是&#123; null, 1, null, 2, null&#125;</span></span><br><span class="line"><span class="comment"> *       </span></span><br><span class="line"><span class="comment"> * */</span></span><br></pre></td></tr></table></figure>
+
+<p>序列化和反序列化，将二叉树的节点值按照字符串保存下来，并保存它的数据结构信息以便重构回内存，空的节点以null值补齐。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先序序列化</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">preSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   pres(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pres</span><span class="params">(Node head, Queue&lt;String&gt; ans)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      ans.add(<span class="keyword">null</span>);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      ans.add(String.valueOf(head.value));</span><br><span class="line">      pres(head.left, ans);</span><br><span class="line">      pres(head.right, ans);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//先序反序列化</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByPreQueue</span><span class="params">(Queue&lt;String&gt; prelist)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (prelist == <span class="keyword">null</span> || prelist.size() == <span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> preb(prelist);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">preb</span><span class="params">(Queue&lt;String&gt; prelist)</span> </span>&#123;</span><br><span class="line">		String value = prelist.poll();</span><br><span class="line">		<span class="keyword">if</span> (value == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Node head = <span class="keyword">new</span> Node(Integer.valueOf(value));</span><br><span class="line">		head.left = preb(prelist);</span><br><span class="line">		head.right = preb(prelist);</span><br><span class="line">		<span class="keyword">return</span> head;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//后序序列化</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">posSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   poss(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">poss</span><span class="params">(Node head, Queue&lt;String&gt; ans)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      ans.add(<span class="keyword">null</span>);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      poss(head.left, ans);</span><br><span class="line">      poss(head.right, ans);</span><br><span class="line">      ans.add(String.valueOf(head.value));</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//后序反序列化</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByPosQueue</span><span class="params">(Queue&lt;String&gt; poslist)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (prelist == <span class="keyword">null</span> || prelist.size() == <span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">			<span class="comment">// 左右中  -&gt;  stack(中右左)</span></span><br><span class="line">		Stack&lt;String&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">		<span class="keyword">while</span> (!poslist.isEmpty()) &#123;</span><br><span class="line">			stack.push(poslist.poll());</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> posb(stack);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">posb</span><span class="params">(Stack&lt;String&gt; posstack)</span> </span>&#123;</span><br><span class="line">		String value = posstack.pop();</span><br><span class="line">		<span class="keyword">if</span> (value == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Node head = <span class="keyword">new</span> Node(Integer.valueOf(value));</span><br><span class="line">		head.right = posb(posstack);</span><br><span class="line">		head.left = posb(posstack);</span><br><span class="line">		<span class="keyword">return</span> head;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//按层序列化</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">levelSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">      Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">      <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">         ans.add(<span class="keyword">null</span>);</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">         ans.add(String.valueOf(head.value));</span><br><span class="line">         Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;Node&gt;();</span><br><span class="line">         queue.add(head);</span><br><span class="line">         <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">            head = queue.poll();</span><br><span class="line">            <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">               ans.add(String.valueOf(head.left.value));</span><br><span class="line">               queue.add(head.left);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">               ans.add(<span class="keyword">null</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">               ans.add(String.valueOf(head.right.value));</span><br><span class="line">               queue.add(head.right);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">               ans.add(<span class="keyword">null</span>);</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> ans;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//按层反序列化</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByLevelQueue</span><span class="params">(Queue&lt;String&gt; levelList)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">if</span> (levelList == <span class="keyword">null</span> || levelList.size() == <span class="number">0</span>) &#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      Node head = generateNode(levelList.poll());</span><br><span class="line">      Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;Node&gt;();</span><br><span class="line">      <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(head);</span><br><span class="line">      &#125;</span><br><span class="line">      Node node = <span class="keyword">null</span>;</span><br><span class="line">      <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">         node = queue.poll();</span><br><span class="line">         node.left = generateNode(levelList.poll());</span><br><span class="line">         node.right = generateNode(levelList.poll());</span><br><span class="line">         <span class="keyword">if</span> (node.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            queue.add(node.left);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (node.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            queue.add(node.right);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> head;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generateNode</span><span class="params">(String val)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (val == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Node(Integer.valueOf(val));</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="递归序"><a href="#递归序" class="headerlink" title="递归序"></a>递归序</h3><h3 id="打印二叉树"><a href="#打印二叉树" class="headerlink" title="打印二叉树"></a>打印二叉树</h3><h3 id="获取二叉树某个节点的后继节点"><a href="#获取二叉树某个节点的后继节点" class="headerlink" title="获取二叉树某个节点的后继节点"></a>获取二叉树某个节点的后继节点</h3><p>重新定义二叉树的结构</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Class Node &#123;</span><br><span class="line"></span><br><span class="line"> 	V value;</span><br><span class="line"></span><br><span class="line"> 	Node left;</span><br><span class="line"></span><br><span class="line">	Node right;</span><br><span class="line"></span><br><span class="line">	Node parent;<span class="comment">//多定义了指向父节点的指针</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>后继节点即为整棵二叉树以中序遍历输出之后，当前节点的下一个输出节点。</p>
+<p>因此暴力解法可以通过父节点指针找到头结点，将整棵二叉树中序遍历来得到顺序。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line">   <span class="keyword">public</span> Node parent;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> data)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = data;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">getSuccessorNode</span><span class="params">(Node node)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (node == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> node;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">if</span> (node.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> getLeftMost(node.right);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123; <span class="comment">// 无右子树</span></span><br><span class="line">      Node parent = node.parent;</span><br><span class="line">      <span class="keyword">while</span> (parent != <span class="keyword">null</span> &amp;&amp; parent.right == node) &#123; <span class="comment">// 当前节点是其父亲节点右孩子</span></span><br><span class="line">         node = parent;</span><br><span class="line">         parent = node.parent;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> parent;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">getLeftMost</span><span class="params">(Node node)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (node == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> node;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">while</span> (node.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">			node = node.left;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> node;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="获取二叉树某个节点的前驱节点"><a href="#获取二叉树某个节点的前驱节点" class="headerlink" title="获取二叉树某个节点的前驱节点"></a>获取二叉树某个节点的前驱节点</h3><p>前驱节点，即后继节点概念下，当前节点的前一个输出。</p>
+<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>请把一段纸条竖着放在桌子上，然后从纸条的下边向上方对折1次，压出折痕后展开。此时折痕是凹下去的，即折痕突起的方向指向纸条的背面。 如果从纸条的下边向上方连续对折2次，压出折痕后展开，此时有三条折痕，从上到下依次是下折痕、下折痕和上折痕。</p>
+<p>给定一个输入参数N，代表纸条都从下边向上方连续对折N次。 请从上到下打印所有折痕的方向。 </p>
+<p>例如:N=2时，打印: down down up   凹凹凸</p>
+<p>观察可以得知，每次折痕的上部距已有折痕1/2处会出现凹折痕，下部距已有折痕1/2处会出现凸折痕。可以以二叉树的结构来表示。</p>
+<p><img src="/2020/06/08/%E4%BA%8C%E5%8F%89%E6%A0%91/Folder.png" alt></p>
+<p>这颗二叉树的所有左子树都是凹折痕，右子树都是凸折痕。想要将纸上的折痕方向自上而下打印，即将这颗二叉树进行中序遍历。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printAllFolds</span><span class="params">(<span class="keyword">int</span> N)</span> </span>&#123;</span><br><span class="line">   printProcess(<span class="number">1</span>, N, <span class="keyword">true</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 递归过程，来到了某一个节点，</span></span><br><span class="line"><span class="comment">// i是节点的层数，N一共的层数，down == true  凹    down == false 凸</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printProcess</span><span class="params">(<span class="keyword">int</span> i, <span class="keyword">int</span> N, <span class="keyword">boolean</span> down)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (i &gt; N) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   printProcess(i + <span class="number">1</span>, N, <span class="keyword">true</span>);</span><br><span class="line">   System.out.println(down ? <span class="string">"凹 "</span> : <span class="string">"凸 "</span>);</span><br><span class="line">   printProcess(i + <span class="number">1</span>, N, <span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>拿递归模拟出了这颗二叉树。空间复杂度只需要一个递归栈O(N).</p>
+<h2 id="二叉树的递归方法"><a href="#二叉树的递归方法" class="headerlink" title="二叉树的递归方法"></a>二叉树的递归方法</h2><h3 id="二叉树的递归套路流程"><a href="#二叉树的递归套路流程" class="headerlink" title="二叉树的递归套路流程"></a>二叉树的递归套路流程</h3><ul>
+<li>1）假设以X节点为头，假设可以向X左树和X右树要任何信息</li>
+<li>2）在上一步的假设下，讨论以X为头节点的树，得到答案的可能性（最重要）</li>
+<li>3）列出所有可能性后，确定到底需要向左树和右树要什么样的信息</li>
+<li>4）把左树信息和右树信息求全集，就是任何一棵子树都需要返回的信息S   因为是递归，所以不想要区分左右子树</li>
+<li>5）递归函数都返回S，每一棵子树都这么要求</li>
+<li>6）写代码，在代码中考虑如何把左树的信息和右树信息整合出整棵树的信息</li>
+</ul>
+<h3 id="返回是否平衡二叉树"><a href="#返回是否平衡二叉树" class="headerlink" title="返回是否平衡二叉树"></a>返回是否平衡二叉树</h3><p>平衡二叉树：</p>
+<p>​    节点左子树和右子树的高度差不大于1，必须所有子树的满足这个要求，整棵树才称为平衡二叉树。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> data)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = data;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">isBalanced1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">boolean</span>[] ans = <span class="keyword">new</span> <span class="keyword">boolean</span>[<span class="number">1</span>];</span><br><span class="line">   ans[<span class="number">0</span>] = <span class="keyword">true</span>;</span><br><span class="line">   process1(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans[<span class="number">0</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">process1</span><span class="params">(Node head, <span class="keyword">boolean</span>[] ans)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (!ans[<span class="number">0</span>] || head == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> leftHeight = process1(head.left, ans);</span><br><span class="line">		<span class="keyword">int</span> rightHeight = process1(head.right, ans);</span><br><span class="line">		<span class="keyword">if</span> (Math.abs(leftHeight - rightHeight) &gt; <span class="number">1</span>) &#123;</span><br><span class="line">			ans[<span class="number">0</span>] = <span class="keyword">false</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> Math.max(leftHeight, rightHeight) + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>第二种方式</code></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">isBalanced2</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> process2(head).isBalaced;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 左、右要求一样，Info 信息返回的结构体</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">    <span class="comment">//因为我的要求是左子树和右子树首先得是平衡二叉树，然后看以我当前节点为头结点，二者的高度差</span></span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">boolean</span> isBalaced;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> height;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">boolean</span> b, <span class="keyword">int</span> h)</span> </span>&#123;</span><br><span class="line">      isBalaced = b;</span><br><span class="line">      height = h;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process2</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (X == <span class="keyword">null</span>) &#123;</span><br><span class="line">       <span class="comment">//空节点了嘛，当然是平衡的了</span></span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(<span class="keyword">true</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Info leftInfo = process2(X.left);</span><br><span class="line">   Info rightInfo = process2(X.right);</span><br><span class="line">   <span class="keyword">int</span> height = Math.max(leftInfo.height, rightInfo.height) + <span class="number">1</span>;</span><br><span class="line">   <span class="keyword">boolean</span> isBalanced = <span class="keyword">true</span>;</span><br><span class="line">    <span class="comment">//如果</span></span><br><span class="line">    <span class="comment">//左子树不平衡 或者 右子树不平衡 或者 二者的高度差大于1</span></span><br><span class="line">    <span class="comment">//返回当前二叉树不平衡</span></span><br><span class="line">   <span class="keyword">if</span> (!leftInfo.isBalaced || !rightInfo.isBalaced || Math.abs(leftInfo.height - rightInfo.height) &gt; <span class="number">1</span>) &#123;</span><br><span class="line">      isBalanced = <span class="keyword">false</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(isBalanced, height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>测试</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// for test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generateRandomBST</span><span class="params">(<span class="keyword">int</span> maxLevel, <span class="keyword">int</span> maxValue)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> generate(<span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// for test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generate</span><span class="params">(<span class="keyword">int</span> level, <span class="keyword">int</span> maxLevel, <span class="keyword">int</span> maxValue)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (level &gt; maxLevel || Math.random() &lt; <span class="number">0.5</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Node head = <span class="keyword">new</span> Node((<span class="keyword">int</span>) (Math.random() * maxValue));</span><br><span class="line">   head.left = generate(level + <span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">   head.right = generate(level + <span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">   <span class="keyword">return</span> head;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">int</span> maxLevel = <span class="number">5</span>;</span><br><span class="line">   <span class="keyword">int</span> maxValue = <span class="number">100</span>;</span><br><span class="line">   <span class="keyword">int</span> testTimes = <span class="number">1000000</span>;</span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; testTimes; i++) &#123;</span><br><span class="line">      Node head = generateRandomBST(maxLevel, maxValue);</span><br><span class="line">      <span class="keyword">if</span> (isBalanced1(head) != isBalanced2(head)) &#123;</span><br><span class="line">         System.out.println(<span class="string">"Oops!"</span>);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println(<span class="string">"finish!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="返回节点的最大距离"><a href="#返回节点的最大距离" class="headerlink" title="返回节点的最大距离"></a>返回节点的最大距离</h3><p>稍难的是列出所有可能性</p>
+<p>以是否考虑头结点来划分成两个大类</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">int</span> dis, <span class="keyword">int</span> h)</span> </span>&#123;</span><br><span class="line">      maxDistance = dis;</span><br><span class="line">      height = h;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (X == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(<span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Info leftInfo = process(X.left);</span><br><span class="line">   Info rightInfo = process(X.right);</span><br><span class="line">   <span class="keyword">int</span> height = Math.max(leftInfo.height, rightInfo.height) + <span class="number">1</span>;</span><br><span class="line">   <span class="keyword">int</span> maxDistance = Math.max(</span><br><span class="line">         Math.max(leftInfo.maxDistance, rightInfo.maxDistance),</span><br><span class="line">         leftInfo.height + rightInfo.height + <span class="number">1</span>);</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(maxDistance, height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="最大二叉搜索子树"><a href="#最大二叉搜索子树" class="headerlink" title="最大二叉搜索子树"></a>最大二叉搜索子树</h3><p>Binary Search Tree</p>
+<p>搜索二叉树</p>
+<p><code>BST</code> 整棵树没有重复值(好像是废话 - -），每棵树的左节点比头节点小，右节点比头节点大。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">getBSTSize</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   ArrayList&lt;Node&gt; arr = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">   in(head, arr);</span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; arr.size(); i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (arr.get(i).value &lt;= arr.get(i - <span class="number">1</span>).value) &#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> arr.size();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">in</span><span class="params">(Node head, ArrayList&lt;Node&gt; arr)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   in(head.left, arr);</span><br><span class="line">   arr.add(head);</span><br><span class="line">   in(head.right, arr);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxSubBSTSize1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">int</span> h = getBSTSize(head);</span><br><span class="line">   <span class="keyword">if</span> (h != <span class="number">0</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> h;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> Math.max(maxSubBSTSize1(head.left), maxSubBSTSize1(head.right));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxSubBSTSize2</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> process(head).maxSubBSTSize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 任何子树</span></span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">boolean</span> isAllBST;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> maxSubBSTSize;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> min;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> max;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">boolean</span> is, <span class="keyword">int</span> size, <span class="keyword">int</span> mi, <span class="keyword">int</span> ma)</span> </span>&#123;</span><br><span class="line">			isAllBST = is;</span><br><span class="line">			maxSubBSTSize = size;</span><br><span class="line">			min = mi;</span><br><span class="line">			max = ma;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span>(X == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Info leftInfo = process(X.left);</span><br><span class="line">		Info rightInfo = process(X.right);</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> min = X.value;</span><br><span class="line">		<span class="keyword">int</span> max = X.value;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(leftInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			min = Math.min(min, leftInfo.min);</span><br><span class="line">			max = Math.max(max, leftInfo.max);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(rightInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			min = Math.min(min, rightInfo.min);</span><br><span class="line">			max = Math.max(max, rightInfo.max);</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">		<span class="keyword">int</span> maxSubBSTSize = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">if</span>(leftInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			maxSubBSTSize = leftInfo.maxSubBSTSize;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(rightInfo !=<span class="keyword">null</span>) &#123;</span><br><span class="line">			maxSubBSTSize = Math.max(maxSubBSTSize, rightInfo.maxSubBSTSize);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">boolean</span> isAllBST = <span class="keyword">false</span>;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(</span><br><span class="line">				<span class="comment">// 左树整体需要是搜索二叉树</span></span><br><span class="line">				(  leftInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : leftInfo.isAllBST    )</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				(  rightInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : rightInfo.isAllBST    )</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				<span class="comment">// 左树最大值&lt;x</span></span><br><span class="line">				(leftInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : leftInfo.max &lt; X.value)</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				(rightInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : rightInfo.min &gt; X.value)</span><br><span class="line">				</span><br><span class="line">				</span><br><span class="line">				) &#123;</span><br><span class="line">			</span><br><span class="line">			maxSubBSTSize = </span><br><span class="line">					(leftInfo == <span class="keyword">null</span> ? <span class="number">0</span> : leftInfo.maxSubBSTSize)</span><br><span class="line">					+</span><br><span class="line">					(rightInfo == <span class="keyword">null</span> ? <span class="number">0</span> : rightInfo.maxSubBSTSize)</span><br><span class="line">					+</span><br><span class="line">					<span class="number">1</span>;</span><br><span class="line">					isAllBST = <span class="keyword">true</span>;</span><br><span class="line">			</span><br><span class="line">			</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Info(isAllBST, maxSubBSTSize, min, max);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="排队最大快乐值"><a href="#排队最大快乐值" class="headerlink" title="排队最大快乐值"></a>排队最大快乐值</h3><p>描述：</p>
+<p>公司的每个员工都符合 Employee 类的描述。整个公司的人员结构可以看作是一棵标准的、 没有环的多叉树。树的头节点是公司唯一的老板。除老板之外的每个员工都有唯一的直接上级。 叶节点是没有任何下属的基层员工(subordinates列表为空)，除基层员工外，每个员工都有一个或多个直接下级。</p>
+<p>这个公司现在要办party，你可以决定哪些员工来，哪些员工不来，规则：</p>
+<p>1.如果某个员工来了，那么这个员工的所有<strong>直接</strong>下级都不能来</p>
+<p>2.派对的整体快乐值是所有到场员工快乐值的累加</p>
+<p>3.你的目标是让派对的整体快乐值尽量大</p>
+<p>给定一棵多叉树的头节点boss，请返回派对的最大快乐值。</p>
+<p>员工信息的定义如下:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">int</span> happy; <span class="comment">// 这名员工可以带来的快乐值</span></span><br><span class="line"></span><br><span class="line">  List&lt;Employee&gt; subordinates; <span class="comment">// 这名员工有哪些直接下级</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxHappy1</span><span class="params">(Employee boss)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (boss == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> process1(boss, <span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">process1</span><span class="params">(Employee cur, <span class="keyword">boolean</span> up)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (up) &#123;</span><br><span class="line">      <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">      <span class="keyword">for</span> (Employee next : cur.nexts) &#123;</span><br><span class="line">         ans += process1(next, <span class="keyword">false</span>);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> ans;</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="keyword">int</span> p1 = cur.happy;</span><br><span class="line">      <span class="keyword">int</span> p2 = <span class="number">0</span>;</span><br><span class="line">      <span class="keyword">for</span> (Employee next : cur.nexts) &#123;</span><br><span class="line">         p1 += process1(next, <span class="keyword">true</span>);</span><br><span class="line">         p2 += process1(next, <span class="keyword">false</span>);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> Math.max(p1, p2);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxHappy2</span><span class="params">(Employee boss)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (boss == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Info all = process2(boss);</span><br><span class="line">   <span class="keyword">return</span> Math.max(all.yes, all.no);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> yes;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> no;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">int</span> y, <span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">      yes = y;</span><br><span class="line">      no = n;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process2</span><span class="params">(Employee x)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (x.nexts.isEmpty()) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(x.happy, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">int</span> yes = x.happy;</span><br><span class="line">   <span class="keyword">int</span> no = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">for</span> (Employee next : x.nexts) &#123;</span><br><span class="line">      Info nextInfo = process2(next);</span><br><span class="line">      yes += nextInfo.no;</span><br><span class="line">      no += Math.max(nextInfo.yes, nextInfo.no);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(yes, no);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>二叉树</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内部类</title>
+    <url>/2020/05/30/%E5%86%85%E9%83%A8%E7%B1%BB/</url>
+    <content><![CDATA[<p>值传递：</p>
+<p>​    java参数传递采用的是值传递，对于<strong>基本类型的变量</strong>，相当于直接将变量进行了拷贝，在方法内部改变了变量i的值也不会影响方法外的i。</p>
+<p>​    对于引用变量，传递的是引用的值，也就是说让实参和形参同时指向了同一个对象，因此让形参重新指向另一个对象对实参并没有任何影响。</p>
+<p>简单定义：定义在一个类内部的类就叫内部类。</p>
+<p>内部类也是一个很困惑的点了。</p>
+<p>首先是分类，内部类可以按照所在区域的不同分为以下四种：</p>
+<ul>
+<li>成员内部类</li>
+<li>局部内部类</li>
+<li>匿名内部类</li>
+<li>静态内部类</li>
+</ul>
+<h2 id="成员内部类"><a href="#成员内部类" class="headerlink" title="成员内部类"></a>成员内部类</h2><p>参考：<a href="https://www.cnblogs.com/chenssy/p/3388487.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3388487.html</a></p>
+<h2 id="局部内部类"><a href="#局部内部类" class="headerlink" title="局部内部类"></a>局部内部类</h2><h2 id="匿名内部类"><a href="#匿名内部类" class="headerlink" title="匿名内部类"></a>匿名内部类</h2><h2 id="静态内部类"><a href="#静态内部类" class="headerlink" title="静态内部类"></a>静态内部类</h2><h2 id="内部类详解"><a href="#内部类详解" class="headerlink" title="内部类详解"></a>内部类详解</h2><p>参考：<a href="https://www.cnblogs.com/dolphin0520/p/3811445.html" target="_blank" rel="noopener">https://www.cnblogs.com/dolphin0520/p/3811445.html</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【hexo】next导航栏404</title>
+    <url>/2020/06/03/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
+    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
+<p><img src="/2020/06/03/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/pic1.jpg" alt></p>
+<p>然后重新生成静态文件并部署即可。</p>
+<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
+<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>博客搭建</category>
@@ -552,193 +941,6 @@
       </tags>
   </entry>
   <entry>
-    <title>内部类</title>
-    <url>/2020/05/30/%E5%86%85%E9%83%A8%E7%B1%BB/</url>
-    <content><![CDATA[<p>值传递：</p>
-<p>​    java参数传递采用的是值传递，对于<strong>基本类型的变量</strong>，相当于直接将变量进行了拷贝，在方法内部改变了变量i的值也不会影响方法外的i。</p>
-<p>​    对于引用变量，传递的是引用的值，也就是说让实参和形参同时指向了同一个对象，因此让形参重新指向另一个对象对实参并没有任何影响。</p>
-<p>简单定义：定义在一个类内部的类就叫内部类。</p>
-<p>内部类也是一个很困惑的点了。</p>
-<p>首先是分类，内部类可以按照所在区域的不同分为以下四种：</p>
-<ul>
-<li>成员内部类</li>
-<li>局部内部类</li>
-<li>匿名内部类</li>
-<li>静态内部类</li>
-</ul>
-<h2 id="成员内部类"><a href="#成员内部类" class="headerlink" title="成员内部类"></a>成员内部类</h2><p>参考：<a href="https://www.cnblogs.com/chenssy/p/3388487.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3388487.html</a></p>
-<h2 id="局部内部类"><a href="#局部内部类" class="headerlink" title="局部内部类"></a>局部内部类</h2><h2 id="匿名内部类"><a href="#匿名内部类" class="headerlink" title="匿名内部类"></a>匿名内部类</h2><h2 id="静态内部类"><a href="#静态内部类" class="headerlink" title="静态内部类"></a>静态内部类</h2><h2 id="内部类详解"><a href="#内部类详解" class="headerlink" title="内部类详解"></a>内部类详解</h2><p>参考：<a href="https://www.cnblogs.com/dolphin0520/p/3811445.html" target="_blank" rel="noopener">https://www.cnblogs.com/dolphin0520/p/3811445.html</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>JavaSE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二叉树</title>
-    <url>/2020/06/08/%E4%BA%8C%E5%8F%89%E6%A0%91/</url>
-    <content><![CDATA[<h2 id="二叉树的基本算法"><a href="#二叉树的基本算法" class="headerlink" title="二叉树的基本算法"></a>二叉树的基本算法</h2><p>先序：头 -  左 - 右</p>
-<p>中序：左 - 头 - 右</p>
-<p>后序：左 - 右 - 头</p>
-<h3 id="用-栈-实现二叉树的先序-中序-后续-遍历"><a href="#用-栈-实现二叉树的先序-中序-后续-遍历" class="headerlink" title="用 栈 实现二叉树的先序 中序 后续 遍历"></a>用 栈 实现二叉树的先序 中序 后续 遍历</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//Node结构</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">      value = v;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先序</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pre</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pre-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      stack.add(head);</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty()) &#123;</span><br><span class="line">         head = stack.pop();</span><br><span class="line">         System.out.print(head.value + <span class="string">" "</span>);</span><br><span class="line">         <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head.right);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head.left);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//中序</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">in</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"in-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty() || head != <span class="keyword">null</span>) &#123;</span><br><span class="line">         <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.push(head);</span><br><span class="line">            head = head.left;</span><br><span class="line">         &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            head = stack.pop();</span><br><span class="line">            System.out.print(head.value + <span class="string">" "</span>);</span><br><span class="line">            head = head.right;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//两个栈实现后序遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pos1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pos-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; s1 = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      Stack&lt;Node&gt; s2 = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      s1.push(head);</span><br><span class="line">      <span class="keyword">while</span> (!s1.isEmpty()) &#123;</span><br><span class="line">         head = s1.pop();</span><br><span class="line">         s2.push(head);</span><br><span class="line">         <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            s1.push(head.left);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            s1.push(head.right);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">while</span> (!s2.isEmpty()) &#123;</span><br><span class="line">         System.out.print(s2.pop().value + <span class="string">" "</span>);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//一个栈实现后序遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pos2</span><span class="params">(Node h)</span> </span>&#123;</span><br><span class="line">   System.out.print(<span class="string">"pos-order: "</span>);</span><br><span class="line">   <span class="keyword">if</span> (h != <span class="keyword">null</span>) &#123;</span><br><span class="line">      Stack&lt;Node&gt; stack = <span class="keyword">new</span> Stack&lt;Node&gt;();</span><br><span class="line">      stack.push(h);</span><br><span class="line">      Node c = <span class="keyword">null</span>;</span><br><span class="line">      <span class="keyword">while</span> (!stack.isEmpty()) &#123;</span><br><span class="line">         c = stack.peek();</span><br><span class="line">         <span class="keyword">if</span> (c.left != <span class="keyword">null</span> &amp;&amp; h != c.left &amp;&amp; h != c.right) &#123;</span><br><span class="line">            stack.push(c.left);</span><br><span class="line">         &#125; <span class="keyword">else</span> <span class="keyword">if</span> (c.right != <span class="keyword">null</span> &amp;&amp; h != c.right) &#123;</span><br><span class="line">            stack.push(c.right);</span><br><span class="line">         &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.print(stack.pop().value + <span class="string">" "</span>);</span><br><span class="line">            h = c;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="二叉树的按层遍历"><a href="#二叉树的按层遍历" class="headerlink" title="二叉树的按层遍历"></a>二叉树的按层遍历</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//以队列实现二叉树的按层遍历</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">level</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();<span class="comment">//linkedList方法，返回队头的节点并释放</span></span><br><span class="line">      System.out.println(cur.value);</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//用Map实现返回二叉树的最大宽度</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxWidthUseMap</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   <span class="comment">// key 在 哪一层，value</span></span><br><span class="line">   HashMap&lt;Node, Integer&gt; levelMap = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">   levelMap.put(head, <span class="number">1</span>);</span><br><span class="line">   <span class="keyword">int</span> curLevel = <span class="number">1</span>; <span class="comment">// 当前你正在统计哪一层的宽度</span></span><br><span class="line">   <span class="keyword">int</span> curLevelNodes = <span class="number">0</span>; <span class="comment">// 当前层curLevel层，宽度目前是多少</span></span><br><span class="line">   <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();</span><br><span class="line">      <span class="keyword">int</span> curNodeLevel = levelMap.get(cur);</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         levelMap.put(cur.left, curNodeLevel + <span class="number">1</span>);</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         levelMap.put(cur.right, curNodeLevel + <span class="number">1</span>);</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (curNodeLevel == curLevel) &#123;</span><br><span class="line">         curLevelNodes++;</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">         max = Math.max(max, curLevelNodes);</span><br><span class="line">         curLevel++;</span><br><span class="line">         curLevelNodes = <span class="number">1</span>;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   max = Math.max(max, curLevelNodes);</span><br><span class="line">   <span class="keyword">return</span> max;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//不是用Map实现返回二叉树的最大宽度</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxWidthNoMap</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   queue.add(head);</span><br><span class="line">   Node curEnd = head; <span class="comment">// 当前层，最右节点是谁</span></span><br><span class="line">   Node nextEnd = <span class="keyword">null</span>; <span class="comment">// 下一层，最右节点是谁</span></span><br><span class="line">   <span class="keyword">int</span> max = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">int</span> curLevelNodes = <span class="number">0</span>; <span class="comment">// 当前层的节点数</span></span><br><span class="line">   <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">      Node cur = queue.poll();</span><br><span class="line">      <span class="keyword">if</span> (cur.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.left);</span><br><span class="line">         nextEnd = cur.left;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">if</span> (cur.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(cur.right);</span><br><span class="line">         nextEnd = cur.right;</span><br><span class="line">      &#125;</span><br><span class="line">      curLevelNodes++;</span><br><span class="line">      <span class="keyword">if</span> (cur == curEnd) &#123;</span><br><span class="line">         max = Math.max(max, curLevelNodes);</span><br><span class="line">         curLevelNodes = <span class="number">0</span>;</span><br><span class="line">         curEnd = nextEnd;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> max;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="二叉树的序列化与反序列化"><a href="#二叉树的序列化与反序列化" class="headerlink" title="二叉树的序列化与反序列化"></a>二叉树的序列化与反序列化</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * 二叉树可以通过先序、后序或者按层遍历的方式序列化和反序列化，</span></span><br><span class="line"><span class="comment"> * 以下代码全部实现了。</span></span><br><span class="line"><span class="comment"> * 但是，二叉树无法通过中序遍历的方式实现序列化和反序列化</span></span><br><span class="line"><span class="comment"> * 因为不同的两棵树，可能得到同样的中序序列，即便补了空位置也可能一样。</span></span><br><span class="line"><span class="comment"> * 比如如下两棵树</span></span><br><span class="line"><span class="comment"> *         __2</span></span><br><span class="line"><span class="comment"> *        /</span></span><br><span class="line"><span class="comment"> *       1</span></span><br><span class="line"><span class="comment"> *       和</span></span><br><span class="line"><span class="comment"> *       1__</span></span><br><span class="line"><span class="comment"> *          \</span></span><br><span class="line"><span class="comment"> *           2</span></span><br><span class="line"><span class="comment"> * 补足空位置的中序遍历结果都是&#123; null, 1, null, 2, null&#125;</span></span><br><span class="line"><span class="comment"> *       </span></span><br><span class="line"><span class="comment"> * */</span></span><br></pre></td></tr></table></figure>
-
-<p>序列化和反序列化，将二叉树的节点值按照字符串保存下来，并保存它的数据结构信息以便重构回内存，空的节点以null值补齐。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先序序列化</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">preSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   pres(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">pres</span><span class="params">(Node head, Queue&lt;String&gt; ans)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      ans.add(<span class="keyword">null</span>);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      ans.add(String.valueOf(head.value));</span><br><span class="line">      pres(head.left, ans);</span><br><span class="line">      pres(head.right, ans);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//先序反序列化</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByPreQueue</span><span class="params">(Queue&lt;String&gt; prelist)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (prelist == <span class="keyword">null</span> || prelist.size() == <span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> preb(prelist);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">preb</span><span class="params">(Queue&lt;String&gt; prelist)</span> </span>&#123;</span><br><span class="line">		String value = prelist.poll();</span><br><span class="line">		<span class="keyword">if</span> (value == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Node head = <span class="keyword">new</span> Node(Integer.valueOf(value));</span><br><span class="line">		head.left = preb(prelist);</span><br><span class="line">		head.right = preb(prelist);</span><br><span class="line">		<span class="keyword">return</span> head;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//后序序列化</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">posSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">   poss(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">poss</span><span class="params">(Node head, Queue&lt;String&gt; ans)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      ans.add(<span class="keyword">null</span>);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      poss(head.left, ans);</span><br><span class="line">      poss(head.right, ans);</span><br><span class="line">      ans.add(String.valueOf(head.value));</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//后序反序列化</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByPosQueue</span><span class="params">(Queue&lt;String&gt; poslist)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (prelist == <span class="keyword">null</span> || prelist.size() == <span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">			<span class="comment">// 左右中  -&gt;  stack(中右左)</span></span><br><span class="line">		Stack&lt;String&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">		<span class="keyword">while</span> (!poslist.isEmpty()) &#123;</span><br><span class="line">			stack.push(poslist.poll());</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> posb(stack);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">posb</span><span class="params">(Stack&lt;String&gt; posstack)</span> </span>&#123;</span><br><span class="line">		String value = posstack.pop();</span><br><span class="line">		<span class="keyword">if</span> (value == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Node head = <span class="keyword">new</span> Node(Integer.valueOf(value));</span><br><span class="line">		head.right = posb(posstack);</span><br><span class="line">		head.left = posb(posstack);</span><br><span class="line">		<span class="keyword">return</span> head;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//按层序列化</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Queue&lt;String&gt; <span class="title">levelSerial</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">      Queue&lt;String&gt; ans = <span class="keyword">new</span> LinkedList&lt;&gt;();</span><br><span class="line">      <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">         ans.add(<span class="keyword">null</span>);</span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">         ans.add(String.valueOf(head.value));</span><br><span class="line">         Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;Node&gt;();</span><br><span class="line">         queue.add(head);</span><br><span class="line">         <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">            head = queue.poll();</span><br><span class="line">            <span class="keyword">if</span> (head.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">               ans.add(String.valueOf(head.left.value));</span><br><span class="line">               queue.add(head.left);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">               ans.add(<span class="keyword">null</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (head.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">               ans.add(String.valueOf(head.right.value));</span><br><span class="line">               queue.add(head.right);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">               ans.add(<span class="keyword">null</span>);</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> ans;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//按层反序列化</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">buildByLevelQueue</span><span class="params">(Queue&lt;String&gt; levelList)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">if</span> (levelList == <span class="keyword">null</span> || levelList.size() == <span class="number">0</span>) &#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      Node head = generateNode(levelList.poll());</span><br><span class="line">      Queue&lt;Node&gt; queue = <span class="keyword">new</span> LinkedList&lt;Node&gt;();</span><br><span class="line">      <span class="keyword">if</span> (head != <span class="keyword">null</span>) &#123;</span><br><span class="line">         queue.add(head);</span><br><span class="line">      &#125;</span><br><span class="line">      Node node = <span class="keyword">null</span>;</span><br><span class="line">      <span class="keyword">while</span> (!queue.isEmpty()) &#123;</span><br><span class="line">         node = queue.poll();</span><br><span class="line">         node.left = generateNode(levelList.poll());</span><br><span class="line">         node.right = generateNode(levelList.poll());</span><br><span class="line">         <span class="keyword">if</span> (node.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">            queue.add(node.left);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">if</span> (node.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">            queue.add(node.right);</span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> head;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generateNode</span><span class="params">(String val)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (val == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Node(Integer.valueOf(val));</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="递归序"><a href="#递归序" class="headerlink" title="递归序"></a>递归序</h3><h3 id="打印二叉树"><a href="#打印二叉树" class="headerlink" title="打印二叉树"></a>打印二叉树</h3><h3 id="获取二叉树某个节点的后继节点"><a href="#获取二叉树某个节点的后继节点" class="headerlink" title="获取二叉树某个节点的后继节点"></a>获取二叉树某个节点的后继节点</h3><p>重新定义二叉树的结构</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Class Node &#123;</span><br><span class="line"></span><br><span class="line"> 	V value;</span><br><span class="line"></span><br><span class="line"> 	Node left;</span><br><span class="line"></span><br><span class="line">	Node right;</span><br><span class="line"></span><br><span class="line">	Node parent;<span class="comment">//多定义了指向父节点的指针</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>后继节点即为整棵二叉树以中序遍历输出之后，当前节点的下一个输出节点。</p>
-<p>因此暴力解法可以通过父节点指针找到头结点，将整棵二叉树中序遍历来得到顺序。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line">   <span class="keyword">public</span> Node parent;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> data)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = data;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">getSuccessorNode</span><span class="params">(Node node)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (node == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> node;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">if</span> (node.right != <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> getLeftMost(node.right);</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123; <span class="comment">// 无右子树</span></span><br><span class="line">      Node parent = node.parent;</span><br><span class="line">      <span class="keyword">while</span> (parent != <span class="keyword">null</span> &amp;&amp; parent.right == node) &#123; <span class="comment">// 当前节点是其父亲节点右孩子</span></span><br><span class="line">         node = parent;</span><br><span class="line">         parent = node.parent;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> parent;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">getLeftMost</span><span class="params">(Node node)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (node == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> node;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">while</span> (node.left != <span class="keyword">null</span>) &#123;</span><br><span class="line">			node = node.left;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> node;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="获取二叉树某个节点的前驱节点"><a href="#获取二叉树某个节点的前驱节点" class="headerlink" title="获取二叉树某个节点的前驱节点"></a>获取二叉树某个节点的前驱节点</h3><p>前驱节点，即后继节点概念下，当前节点的前一个输出。</p>
-<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>请把一段纸条竖着放在桌子上，然后从纸条的下边向上方对折1次，压出折痕后展开。此时折痕是凹下去的，即折痕突起的方向指向纸条的背面。 如果从纸条的下边向上方连续对折2次，压出折痕后展开，此时有三条折痕，从上到下依次是下折痕、下折痕和上折痕。</p>
-<p>给定一个输入参数N，代表纸条都从下边向上方连续对折N次。 请从上到下打印所有折痕的方向。 </p>
-<p>例如:N=2时，打印: down down up   凹凹凸</p>
-<p>观察可以得知，每次折痕的上部距已有折痕1/2处会出现凹折痕，下部距已有折痕1/2处会出现凸折痕。可以以二叉树的结构来表示。</p>
-<p><img src="/2020/06/08/%E4%BA%8C%E5%8F%89%E6%A0%91/Folder.png" alt></p>
-<p>这颗二叉树的所有左子树都是凹折痕，右子树都是凸折痕。想要将纸上的折痕方向自上而下打印，即将这颗二叉树进行中序遍历。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printAllFolds</span><span class="params">(<span class="keyword">int</span> N)</span> </span>&#123;</span><br><span class="line">   printProcess(<span class="number">1</span>, N, <span class="keyword">true</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 递归过程，来到了某一个节点，</span></span><br><span class="line"><span class="comment">// i是节点的层数，N一共的层数，down == true  凹    down == false 凸</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printProcess</span><span class="params">(<span class="keyword">int</span> i, <span class="keyword">int</span> N, <span class="keyword">boolean</span> down)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (i &gt; N) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   printProcess(i + <span class="number">1</span>, N, <span class="keyword">true</span>);</span><br><span class="line">   System.out.println(down ? <span class="string">"凹 "</span> : <span class="string">"凸 "</span>);</span><br><span class="line">   printProcess(i + <span class="number">1</span>, N, <span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>拿递归模拟出了这颗二叉树。空间复杂度只需要一个递归栈O(N).</p>
-<h2 id="二叉树的递归方法"><a href="#二叉树的递归方法" class="headerlink" title="二叉树的递归方法"></a>二叉树的递归方法</h2><h3 id="二叉树的递归套路流程"><a href="#二叉树的递归套路流程" class="headerlink" title="二叉树的递归套路流程"></a>二叉树的递归套路流程</h3><ul>
-<li>1）假设以X节点为头，假设可以向X左树和X右树要任何信息</li>
-<li>2）在上一步的假设下，讨论以X为头节点的树，得到答案的可能性（最重要）</li>
-<li>3）列出所有可能性后，确定到底需要向左树和右树要什么样的信息</li>
-<li>4）把左树信息和右树信息求全集，就是任何一棵子树都需要返回的信息S   因为是递归，所以不想要区分左右子树</li>
-<li>5）递归函数都返回S，每一棵子树都这么要求</li>
-<li>6）写代码，在代码中考虑如何把左树的信息和右树信息整合出整棵树的信息</li>
-</ul>
-<h3 id="返回是否平衡二叉树"><a href="#返回是否平衡二叉树" class="headerlink" title="返回是否平衡二叉树"></a>返回是否平衡二叉树</h3><p>平衡二叉树：</p>
-<p>​    节点左子树和右子树的高度差不大于1，必须所有子树的满足这个要求，整棵树才称为平衡二叉树。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Node</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> value;</span><br><span class="line">   <span class="keyword">public</span> Node left;</span><br><span class="line">   <span class="keyword">public</span> Node right;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Node</span><span class="params">(<span class="keyword">int</span> data)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>.value = data;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">isBalanced1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">boolean</span>[] ans = <span class="keyword">new</span> <span class="keyword">boolean</span>[<span class="number">1</span>];</span><br><span class="line">   ans[<span class="number">0</span>] = <span class="keyword">true</span>;</span><br><span class="line">   process1(head, ans);</span><br><span class="line">   <span class="keyword">return</span> ans[<span class="number">0</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">process1</span><span class="params">(Node head, <span class="keyword">boolean</span>[] ans)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (!ans[<span class="number">0</span>] || head == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> leftHeight = process1(head.left, ans);</span><br><span class="line">		<span class="keyword">int</span> rightHeight = process1(head.right, ans);</span><br><span class="line">		<span class="keyword">if</span> (Math.abs(leftHeight - rightHeight) &gt; <span class="number">1</span>) &#123;</span><br><span class="line">			ans[<span class="number">0</span>] = <span class="keyword">false</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> Math.max(leftHeight, rightHeight) + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>第二种方式</code></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">isBalanced2</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> process2(head).isBalaced;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 左、右要求一样，Info 信息返回的结构体</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">    <span class="comment">//因为我的要求是左子树和右子树首先得是平衡二叉树，然后看以我当前节点为头结点，二者的高度差</span></span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">boolean</span> isBalaced;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> height;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">boolean</span> b, <span class="keyword">int</span> h)</span> </span>&#123;</span><br><span class="line">      isBalaced = b;</span><br><span class="line">      height = h;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process2</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (X == <span class="keyword">null</span>) &#123;</span><br><span class="line">       <span class="comment">//空节点了嘛，当然是平衡的了</span></span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(<span class="keyword">true</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Info leftInfo = process2(X.left);</span><br><span class="line">   Info rightInfo = process2(X.right);</span><br><span class="line">   <span class="keyword">int</span> height = Math.max(leftInfo.height, rightInfo.height) + <span class="number">1</span>;</span><br><span class="line">   <span class="keyword">boolean</span> isBalanced = <span class="keyword">true</span>;</span><br><span class="line">    <span class="comment">//如果</span></span><br><span class="line">    <span class="comment">//左子树不平衡 或者 右子树不平衡 或者 二者的高度差大于1</span></span><br><span class="line">    <span class="comment">//返回当前二叉树不平衡</span></span><br><span class="line">   <span class="keyword">if</span> (!leftInfo.isBalaced || !rightInfo.isBalaced || Math.abs(leftInfo.height - rightInfo.height) &gt; <span class="number">1</span>) &#123;</span><br><span class="line">      isBalanced = <span class="keyword">false</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(isBalanced, height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>测试</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// for test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generateRandomBST</span><span class="params">(<span class="keyword">int</span> maxLevel, <span class="keyword">int</span> maxValue)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> generate(<span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// for test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Node <span class="title">generate</span><span class="params">(<span class="keyword">int</span> level, <span class="keyword">int</span> maxLevel, <span class="keyword">int</span> maxValue)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (level &gt; maxLevel || Math.random() &lt; <span class="number">0.5</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Node head = <span class="keyword">new</span> Node((<span class="keyword">int</span>) (Math.random() * maxValue));</span><br><span class="line">   head.left = generate(level + <span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">   head.right = generate(level + <span class="number">1</span>, maxLevel, maxValue);</span><br><span class="line">   <span class="keyword">return</span> head;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">int</span> maxLevel = <span class="number">5</span>;</span><br><span class="line">   <span class="keyword">int</span> maxValue = <span class="number">100</span>;</span><br><span class="line">   <span class="keyword">int</span> testTimes = <span class="number">1000000</span>;</span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; testTimes; i++) &#123;</span><br><span class="line">      Node head = generateRandomBST(maxLevel, maxValue);</span><br><span class="line">      <span class="keyword">if</span> (isBalanced1(head) != isBalanced2(head)) &#123;</span><br><span class="line">         System.out.println(<span class="string">"Oops!"</span>);</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   System.out.println(<span class="string">"finish!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="返回节点的最大距离"><a href="#返回节点的最大距离" class="headerlink" title="返回节点的最大距离"></a>返回节点的最大距离</h3><p>稍难的是列出所有可能性</p>
-<p>以是否考虑头结点来划分成两个大类</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">int</span> dis, <span class="keyword">int</span> h)</span> </span>&#123;</span><br><span class="line">      maxDistance = dis;</span><br><span class="line">      height = h;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (X == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(<span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   Info leftInfo = process(X.left);</span><br><span class="line">   Info rightInfo = process(X.right);</span><br><span class="line">   <span class="keyword">int</span> height = Math.max(leftInfo.height, rightInfo.height) + <span class="number">1</span>;</span><br><span class="line">   <span class="keyword">int</span> maxDistance = Math.max(</span><br><span class="line">         Math.max(leftInfo.maxDistance, rightInfo.maxDistance),</span><br><span class="line">         leftInfo.height + rightInfo.height + <span class="number">1</span>);</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(maxDistance, height);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="最大二叉搜索子树"><a href="#最大二叉搜索子树" class="headerlink" title="最大二叉搜索子树"></a>最大二叉搜索子树</h3><p>Binary Search Tree</p>
-<p>搜索二叉树</p>
-<p><code>BST</code> 整棵树没有重复值(好像是废话 - -），每棵树的左节点比头节点小，右节点比头节点大。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">getBSTSize</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   ArrayList&lt;Node&gt; arr = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">   in(head, arr);</span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; arr.size(); i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (arr.get(i).value &lt;= arr.get(i - <span class="number">1</span>).value) &#123;</span><br><span class="line">         <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> arr.size();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">in</span><span class="params">(Node head, ArrayList&lt;Node&gt; arr)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   in(head.left, arr);</span><br><span class="line">   arr.add(head);</span><br><span class="line">   in(head.right, arr);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxSubBSTSize1</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">int</span> h = getBSTSize(head);</span><br><span class="line">   <span class="keyword">if</span> (h != <span class="number">0</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> h;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> Math.max(maxSubBSTSize1(head.left), maxSubBSTSize1(head.right));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxSubBSTSize2</span><span class="params">(Node head)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (head == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> process(head).maxSubBSTSize;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 任何子树</span></span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">boolean</span> isAllBST;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> maxSubBSTSize;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> min;</span><br><span class="line">		<span class="keyword">public</span> <span class="keyword">int</span> max;</span><br><span class="line"></span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">boolean</span> is, <span class="keyword">int</span> size, <span class="keyword">int</span> mi, <span class="keyword">int</span> ma)</span> </span>&#123;</span><br><span class="line">			isAllBST = is;</span><br><span class="line">			maxSubBSTSize = size;</span><br><span class="line">			min = mi;</span><br><span class="line">			max = ma;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process</span><span class="params">(Node X)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span>(X == <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		Info leftInfo = process(X.left);</span><br><span class="line">		Info rightInfo = process(X.right);</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> min = X.value;</span><br><span class="line">		<span class="keyword">int</span> max = X.value;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(leftInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			min = Math.min(min, leftInfo.min);</span><br><span class="line">			max = Math.max(max, leftInfo.max);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(rightInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			min = Math.min(min, rightInfo.min);</span><br><span class="line">			max = Math.max(max, rightInfo.max);</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">		<span class="keyword">int</span> maxSubBSTSize = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">if</span>(leftInfo != <span class="keyword">null</span>) &#123;</span><br><span class="line">			maxSubBSTSize = leftInfo.maxSubBSTSize;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(rightInfo !=<span class="keyword">null</span>) &#123;</span><br><span class="line">			maxSubBSTSize = Math.max(maxSubBSTSize, rightInfo.maxSubBSTSize);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">boolean</span> isAllBST = <span class="keyword">false</span>;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(</span><br><span class="line">				<span class="comment">// 左树整体需要是搜索二叉树</span></span><br><span class="line">				(  leftInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : leftInfo.isAllBST    )</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				(  rightInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : rightInfo.isAllBST    )</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				<span class="comment">// 左树最大值&lt;x</span></span><br><span class="line">				(leftInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : leftInfo.max &lt; X.value)</span><br><span class="line">				&amp;&amp;</span><br><span class="line">				(rightInfo == <span class="keyword">null</span> ? <span class="keyword">true</span> : rightInfo.min &gt; X.value)</span><br><span class="line">				</span><br><span class="line">				</span><br><span class="line">				) &#123;</span><br><span class="line">			</span><br><span class="line">			maxSubBSTSize = </span><br><span class="line">					(leftInfo == <span class="keyword">null</span> ? <span class="number">0</span> : leftInfo.maxSubBSTSize)</span><br><span class="line">					+</span><br><span class="line">					(rightInfo == <span class="keyword">null</span> ? <span class="number">0</span> : rightInfo.maxSubBSTSize)</span><br><span class="line">					+</span><br><span class="line">					<span class="number">1</span>;</span><br><span class="line">					isAllBST = <span class="keyword">true</span>;</span><br><span class="line">			</span><br><span class="line">			</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> Info(isAllBST, maxSubBSTSize, min, max);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="排队最大快乐值"><a href="#排队最大快乐值" class="headerlink" title="排队最大快乐值"></a>排队最大快乐值</h3><p>描述：</p>
-<p>公司的每个员工都符合 Employee 类的描述。整个公司的人员结构可以看作是一棵标准的、 没有环的多叉树。树的头节点是公司唯一的老板。除老板之外的每个员工都有唯一的直接上级。 叶节点是没有任何下属的基层员工(subordinates列表为空)，除基层员工外，每个员工都有一个或多个直接下级。</p>
-<p>这个公司现在要办party，你可以决定哪些员工来，哪些员工不来，规则：</p>
-<p>1.如果某个员工来了，那么这个员工的所有<strong>直接</strong>下级都不能来</p>
-<p>2.派对的整体快乐值是所有到场员工快乐值的累加</p>
-<p>3.你的目标是让派对的整体快乐值尽量大</p>
-<p>给定一棵多叉树的头节点boss，请返回派对的最大快乐值。</p>
-<p>员工信息的定义如下:</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">int</span> happy; <span class="comment">// 这名员工可以带来的快乐值</span></span><br><span class="line"></span><br><span class="line">  List&lt;Employee&gt; subordinates; <span class="comment">// 这名员工有哪些直接下级</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxHappy1</span><span class="params">(Employee boss)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (boss == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> process1(boss, <span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">process1</span><span class="params">(Employee cur, <span class="keyword">boolean</span> up)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (up) &#123;</span><br><span class="line">      <span class="keyword">int</span> ans = <span class="number">0</span>;</span><br><span class="line">      <span class="keyword">for</span> (Employee next : cur.nexts) &#123;</span><br><span class="line">         ans += process1(next, <span class="keyword">false</span>);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> ans;</span><br><span class="line">   &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="keyword">int</span> p1 = cur.happy;</span><br><span class="line">      <span class="keyword">int</span> p2 = <span class="number">0</span>;</span><br><span class="line">      <span class="keyword">for</span> (Employee next : cur.nexts) &#123;</span><br><span class="line">         p1 += process1(next, <span class="keyword">true</span>);</span><br><span class="line">         p2 += process1(next, <span class="keyword">false</span>);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> Math.max(p1, p2);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">maxHappy2</span><span class="params">(Employee boss)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (boss == <span class="keyword">null</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">   &#125;</span><br><span class="line">   Info all = process2(boss);</span><br><span class="line">   <span class="keyword">return</span> Math.max(all.yes, all.no);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Info</span> </span>&#123;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> yes;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">int</span> no;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Info</span><span class="params">(<span class="keyword">int</span> y, <span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">      yes = y;</span><br><span class="line">      no = n;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Info <span class="title">process2</span><span class="params">(Employee x)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (x.nexts.isEmpty()) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">new</span> Info(x.happy, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">int</span> yes = x.happy;</span><br><span class="line">   <span class="keyword">int</span> no = <span class="number">0</span>;</span><br><span class="line">   <span class="keyword">for</span> (Employee next : x.nexts) &#123;</span><br><span class="line">      Info nextInfo = process2(next);</span><br><span class="line">      yes += nextInfo.no;</span><br><span class="line">      no += Math.max(nextInfo.yes, nextInfo.no);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> <span class="keyword">new</span> Info(yes, no);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>二叉树</tag>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>chrome插件</title>
-    <url>/2020/06/02/chrome%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="插件的离线下载方式"><a href="#插件的离线下载方式" class="headerlink" title="插件的离线下载方式"></a>插件的离线下载方式</h2><ol>
-<li><p>去应用商店自行下载</p>
-</li>
-<li><p>离线安装</p>
-<p>下载需要安装 Chrome 扩展的 CRX 文件，并将其后缀名改为 ZIP 格式。然后解压缩这个 Chrome 扩展包文件。</p>
-<p>点击你的 Chrome 浏览器中的「更多工具 &gt; 扩展程序」菜单或者直接在地址栏输入: chrome://extensions/ 打开扩展程序管理页面。</p>
-<p>在打开的扩展程序管理页面上，选择开发者模式，点击 「加载已解压的扩展程序」。</p>
-<p>选择前面解压缩的安装包所在的目录并确认后就完成了该插件的安装。</p>
-</li>
-</ol>
-<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><ul>
-<li><p><strong>Crx4Chrome</strong></p>
-<p>链接：<a href="https://www.crx4chrome.com/" target="_blank" rel="noopener">https://www.crx4chrome.com/</a></p>
-<p>包含了一些扩展排行，可以帮助探索新颖的好用的工具。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>扩展迷</strong></p>
-<p>链接：<a href="https://extfans.com/" target="_blank" rel="noopener">https://extfans.com/</a></p>
-<p>提供 Chrome 商店中优秀的 Chrome 插件推荐与下载服务。</p>
-</li>
-</ul>
-<ul>
-<li><p><strong>chrome插件网</strong></p>
-<p>链接：<a href="http://chromecj.com/" target="_blank" rel="noopener">http://chromecj.com/</a></p>
-<p>Chrome 插件网致力于帮助用户找到、安装、学会使用优秀的 Chrome 插件来提高谷歌浏览器的使用体验。</p>
-</li>
-</ul>
-<h2 id="GitZip-for-Github"><a href="#GitZip-for-Github" class="headerlink" title="GitZip for Github"></a>GitZip for Github</h2><p>一个方便用户下载github资源的Chrome插件，有时候只是想要github某个仓库的部分文件而不是下载整个仓库，但原生的git命令不支持，所以在网上搜索可行的方法。</p>
-<p>GitZip的使用很简单，在需要下载的仓库的某个文件或文件夹前面的空白处双击就会出现一个勾，可以选择多个文件或文件夹，这时候页面会弹出下载的按键，选择好之后点击下载即可，下载速度感觉比clone要快0.0</p>
-<p>如果你觉得安装插件比较麻烦的话，也同样可以直接使用  GitZip for Github 的 Web 版本。方法类似，这里就不再赘述了。</p>
-<p>Web 版本地址：<a href="https://kinolien.github.io/gitzip/" target="_blank" rel="noopener">https://kinolien.github.io/gitzip/</a></p>
-<p>除了这个之外，也还有许多其他的方式来满足下载单项资源。</p>
-<ul>
-<li><p><a href="http://zhoudaxiaa.gitee.io/downgit/#/home" target="_blank" rel="noopener">DownGit</a></p>
-</li>
-<li><p><a href="https://www.runoob.com/svn/tortoisesvn-intro.html" target="_blank" rel="noopener">TotoiseSVN</a></p>
-</li>
-<li><p><a href="https://github.com/hua1995116/git-down-repo" target="_blank" rel="noopener">git-down-repo</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">npm install git-down-repo -g <span class="comment">// 安装全局</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// test </span></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat  // 下载整个仓库（默认master）</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat dev // 下载某个仓库的dev分支</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/tree/master/config // 下载仓库某个文件夹</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js // 下载某个文件</span></span><br><span class="line"></span><br><span class="line">gitdown https:<span class="comment">//github.com/hua1995116/webchat/blob/master/config/dev.env.js https://github.com/hua1995116/webpack-plugin-inner-script/blob/master/index.js // 下载多个项目（空格分隔）</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p><strong>参考：</strong><a href="https://blog.csdn.net/weixin_44058333/article/details/97138348" target="_blank" rel="noopener">https://blog.csdn.net/weixin_44058333/article/details/97138348</a></p>
-<p>​            <a href="https://cloud.tencent.com/developer/article/1463081" target="_blank" rel="noopener">https://cloud.tencent.com/developer/article/1463081</a></p>
-]]></content>
-      <categories>
-        <category>杂项</category>
-      </categories>
-      <tags>
-        <tag>冲浪小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>底层基础知识01</title>
     <url>/2020/06/03/%E5%BA%95%E5%B1%82%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%8601/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>计算机需要解决的最根本问题其实是：如何代表数字</p>
@@ -832,21 +1034,55 @@
       </tags>
   </entry>
   <entry>
-    <title>【hexo】next导航栏404</title>
-    <url>/2020/06/03/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/</url>
-    <content><![CDATA[<p>去查看了public下的index.html代码，发现所有导航路径后都有%20，%20代表空格，而这个一部分又是next主题中生成的，去查看了配置文件，将配置文件里 ||之前所有的空格删掉。</p>
-<p><img src="/2020/06/03/%E3%80%90hexo%E3%80%91next%E5%AF%BC%E8%88%AA%E6%A0%8F404/pic1.jpg" alt></p>
-<p>然后重新生成静态文件并部署即可。</p>
-<p>侧边栏的链接可能也有404的问题，直接去主题目录下找相应名称的配置文件进行修改即可。</p>
-<p>如果没有标签和分类页面，可以通过 hexo new page tags这样的命令在source下创建文件夹，并修改index.md<br>如下，冒号后面有空格</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>
-
+    <title>贪心算法</title>
+    <url>/2020/06/21/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h2><p>1）最自然智慧的算法</p>
+<p>2）用一种局部最功利的标准，总是做出在当前看来是最好的选择</p>
+<p>3）难点在于证明局部最功利的标准可以得到全局最优解</p>
+<p>4）对于贪心算法的学习主要以增加阅历和经验为主</p>
+<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><h3 id="1从头到尾讲一道利用贪心算法求解的题目，包含证明"><a href="#1从头到尾讲一道利用贪心算法求解的题目，包含证明" class="headerlink" title="1从头到尾讲一道利用贪心算法求解的题目，包含证明"></a>1从头到尾讲一道利用贪心算法求解的题目，包含证明</h3><p>给定一个由字符串组成的数组strs，</p>
+<p>必须把所有的字符串拼接起来，</p>
+<p>返回所有可能的<strong>拼接</strong>结果中，字典序最小的结果</p>
+<p><code>（字典序：将字符串放入字典比较大小，在前小，compareTo方法就是比较的字典序，字符串长度不同的时候，短的补0,0认为比a的ascii码还要小）</code></p>
+<p><code>证明所定的排序策略的传递性</code></p>
+<p><img src="/2020/06/21/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/C:%5CUsers%5C%E5%88%98%E5%89%91%E7%BF%94%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200621095555255.png" alt=" "></p>
+<h3 id="贪心算法求解的标准流程"><a href="#贪心算法求解的标准流程" class="headerlink" title="贪心算法求解的标准流程"></a>贪心算法求解的标准流程</h3><p>1，分析业务</p>
+<p>2，根据业务逻辑找到不同的贪心策略</p>
+<p>3，对于能举出反例的策略直接跳过，不能举出反例的策略要证明有效性</p>
+<p>这往往是特别困难的，要求数学能力很高且不具有统一的技巧性</p>
+<h3 id="贪心算法的解题套路"><a href="#贪心算法的解题套路" class="headerlink" title="贪心算法的解题套路"></a>贪心算法的解题套路</h3><p>1，实现一个不依靠贪心策略的解法X，可以用最暴力的尝试</p>
+<p>2，脑补出贪心策略A、贪心策略B、贪心策略C…</p>
+<p>3，用解法X和对数器，用实验的方式得知哪个贪心策略正确</p>
+<p>4，不要去纠结贪心策略的证明</p>
 ]]></content>
       <categories>
-        <category>博客搭建</category>
+        <category>算法</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MySql基础</title>
+    <url>/2020/06/04/MySql%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h1><h2 id="条件筛选"><a href="#条件筛选" class="headerlink" title="条件筛选"></a>条件筛选</h2><h3 id="like"><a href="#like" class="headerlink" title="like"></a>like</h3><p>like子句可以在where子句中使用，用来匹配某个字段。提供了四种匹配符：</p>
+<ul>
+<li><p><code>%</code> :表示0个或多个字符。可以匹配任意类型和长度的字符。如果是中文使用%%。</p>
+</li>
+<li><p><code>_</code>:表示单个任意字符。常用来限制匹配的数量。</p>
+</li>
+<li><p><code>[]</code>:表示括号内所列字符的一个（类似正则表达式）。指定一个字符、字符串或范围，要求所匹配对象为它们中的任一个。</p>
+</li>
+<li><p><code>[^]</code>:表示不在括号所在列之内的单个字符。上述的特殊字符如果无法实现可以用[]括起来。</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">count</span>(*) <span class="keyword">from</span> teacher <span class="keyword">where</span> tname <span class="keyword">like</span> <span class="string">'李%'</span>;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>MySql</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>MySql</tag>
       </tags>
   </entry>
 </search>
